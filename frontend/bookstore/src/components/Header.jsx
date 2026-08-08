@@ -10,7 +10,7 @@ const Header = () => {
         localStorage.removeItem('accessToken')
         localStorage.removeItem('refreshToken')
         setIsLoggedIn(false)
-        navigate('/login')
+        navigate('/')
     }
   return (
     <>
@@ -20,13 +20,14 @@ const Header = () => {
                 <img src={logo} alt="Brand Logo" height="auto"width="auto"className="d-inline-block align-text-top me-2"/>
             </Link>
             <div className='d-flex align-items-center ms-auto gap-2'>
-                <Link to="/cart">
-                    <button className="btn btn-outline-success">
-                    Cart
-                    </button>
-                </Link>
             {isLoggedIn ? (
+                <>
+                <Link to="/cart"><button className="btn btn-outline-success">Cart</button></Link>
+                <Link to="/profile"><button className='btn btn-outline-success'>Profile</button></Link>
+                <Link to="/orderlist"><button className='btn btn-outline-success'>Orders</button></Link>
                 <button className='btn btn-outline-danger' onClick={handleLogout}>Logout</button>
+                </>
+                
             ) : (
                 <>
                 <Link to="/login"><button className='btn btn-outline-danger'>Login</button></Link>
