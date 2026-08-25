@@ -1,0 +1,35 @@
+.sidebar-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 5px;
+
+    border: none;
+    outline: none;
+    background: transparent;
+
+    text-decoration: none;
+    color: #212529;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+
+
+.sidebar-link.active {
+    color: #A3572A;
+    font-weight: 400;
+    font-family: inherit;
+}
+.sidebar-link:focus {
+    outline: none;
+    box-shadow: none;
+}

@@ -23,15 +23,15 @@ const Header = () => {
             {isLoggedIn ? (
                 <>
                 <Link to="/cart"><button className="btn btn-outline-success">Cart</button></Link>
-                <Link to="/profile"><button className='btn btn-outline-success'>Profile</button></Link>
-                <Link to="/orderlist"><button className='btn btn-outline-success'>Orders</button></Link>
+                <Link to="/account"><button className='btn btn-outline-success'>Account</button></Link>
+                
                 <button className='btn btn-outline-danger' onClick={handleLogout}>Logout</button>
                 </>
                 
             ) : (
                 <>
-                <Link to="/login"><button className='btn btn-outline-danger'>Login</button></Link>
-                <Link to="/register"><button className='btn btn-outline-danger'>SignUp</button></Link>
+                <Link to="/login"><button className='btn text-dark fw-bold' style={{ backgroundColor: '#fffff', borderColor: 'black' }}>Login</button></Link>
+                <Link to="/register"><button className='btn text-light fw-bold' style={{ backgroundColor: '#131F33'}}>SignUp</button></Link>
                 </>
                 
             )}

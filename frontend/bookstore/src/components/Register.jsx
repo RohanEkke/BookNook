@@ -11,6 +11,8 @@ const Register = () => {
     const [errors, setErrors] = useState({})
     const [success, setSuccess] = useState(false)
     const [loading, setLoading] = useState(false)
+    
+
 
     const handleRegistration = async (e) => {
         e.preventDefault();
@@ -39,10 +41,10 @@ const Register = () => {
     <>
     <div className='container '>
         <div className='row justify-content-center'>
-            <div className='col-md-8'>
+            <div className='col-md-7'>
                 <form className='shadow p-5 m-5 rounded-3 bg-light' onSubmit={handleRegistration}>
                     
-                    <img 
+                    <img
                     src={logo} 
                     alt="Brand Logo" 
                     height="auto"
@@ -80,11 +82,11 @@ const Register = () => {
                     {success && <div className='text-center text-success h5'>Registration Successful!</div>}
                     {loading ? (
                         <div className="d-flex justify-content-center m-3">
-                            <button type="submit" className="btn btn-primary w-100 mt-2">Signingup...</button>
+                            <button type="submit" className="text-light btn w-100 mt-3" style={{ backgroundColor: '#A3572A' }}>Signingup...</button>
                         </div>
                     ) : (
                         <div className="d-flex justify-content-center m-3">
-                            <button type="submit" className="btn btn-primary w-100 mt-2">Signup</button>
+                            <button type="submit" className="text-light btn w-100 mt-3" style={{ backgroundColor: '#A3572A' }}>Signup</button>
                         </div>
                     )}   
                     

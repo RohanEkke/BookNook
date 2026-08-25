@@ -70,11 +70,11 @@ const Login = () => {
                     {errors && <div className='text-danger text-center'>{errors}</div> }
                     {loading ? (
                         <div className="d-flex justify-content-center m-4">
-                            <button type="submit" className="btn btn-primary w-100 mt-2">Logging in...</button>
+                            <button type="submit" className="text-light btn w-100 mt-3" style={{ backgroundColor: '#A3572A' }}>Logging in...</button>
                         </div>
                     ) : (
                         <div className="d-flex justify-content-center m-4">
-                            <button type="submit" className="btn btn-primary w-100 mt-3">Login</button>
+                            <button type="submit" className="text-light btn w-100 mt-3" style={{ backgroundColor: '#A3572A' }}>Login</button>
                         </div>
                     )}   
                 </form>

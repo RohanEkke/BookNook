@@ -15,12 +15,19 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.conf import settings
+from django.conf.urls.static import static
+from django.urls import path, include
 from rest_framework_simplejwt.views import (
     TokenObtainPairView,
     TokenRefreshView,
 )
 from accounts import views as UserView
+from rest_framework.routers import DefaultRouter
+from catalog import views as Bookview
+
+router = DefaultRouter()
+router.register('api/address', UserView.AddressViewSet, basename="address")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -30,5 +37,18 @@ urlpatterns = [
 
     path('api/protected-view/', UserView.ProtectedView.as_view()),
 
-    path('api/register', UserView.RegisterView.as_view())
+    path('api/register', UserView.RegisterView.as_view()),
+
+    path("api/profile/", UserView.UserProfileView.as_view(), name="profile"),
+
+    path('', include(router.urls)),
+
+    path("api/books/", Bookview.BookView.as_view(), name="books"),
+
+    path("api/book/<int:id>/", Bookview.BookDetailsView.as_view()),
 ]
+
+urlpatterns += static(
+    settings.MEDIA_URL,
+    document_root=settings.MEDIA_ROOT
+)

@@ -15,6 +15,9 @@ import Address from './components/orders/Address'
 import PrivateRoute from './PrivateRoute'
 import PublicRoute from './PublicRoute'
 import BookDetail from './components/BookDetail'
+import AccountLayout from './components/orders/AccountLayout'
+import Wishlist from './components/orders/Wishlist'
+import Notifications from './components/orders/Notifications'
 
 
 
@@ -23,27 +26,36 @@ function App() {
 
   return (
     <>
+    <div style={{ backgroundColor: "#f0f4f8", fontFamily: "'Segoe UI', sans-serif" }}>
     <AuthProvider>
     <BrowserRouter>
       <Header/>
 
       <Routes>
-        <Route path='/' element={<PublicRoute><Homepage/></PublicRoute>} />
+        <Route path='/' element={<Homepage/>} />
         <Route path='/login' element={<PublicRoute><Login/></PublicRoute>} />
         <Route path='/register' element={<PublicRoute><Register/></PublicRoute>} />
-        <Route path='/bookdetail' element={<PublicRoute><BookDetail/></PublicRoute>} />
+        <Route path='/bookdetail/:id' element={<BookDetail/>} />
 
         <Route path='/orderdetail' element={<PrivateRoute><OrderDetails/></PrivateRoute>} />
-        <Route path='/orderlist' element={<PrivateRoute><OrderList/> </PrivateRoute>} />
-        <Route path='/profile' element={<PrivateRoute><Profile/></PrivateRoute>} />
-        <Route path='/payment' element={<PrivateRoute><Payment/></PrivateRoute>} />
         <Route path='/cart' element={<PrivateRoute><Cart/></PrivateRoute>} />
-        <Route path='/address' element={<PrivateRoute><Address/></PrivateRoute>} />
+        
+        <Route path='/account' element={<AccountLayout/>}>
+          <Route index element={<PrivateRoute><Profile/></PrivateRoute>} />
+          <Route path='orders' element={<PrivateRoute><OrderList/></PrivateRoute>}/>
+          <Route path='profile' element={<PrivateRoute><Profile/></PrivateRoute>}/>
+          <Route path='addresses' element={<PrivateRoute><Address/></PrivateRoute>}/>
+          <Route path='payment-methods' element={<PrivateRoute><Payment/></PrivateRoute>}/>
+          <Route path='wishlist' element={<PrivateRoute><Wishlist/></PrivateRoute>}/>
+          <Route path='notifications' element={<PrivateRoute><Notifications/></PrivateRoute>}/>
+          <Route path='logout' element={<PublicRoute><Homepage/></PublicRoute>}/>
+        </Route>
+      
       </Routes>
-
       <Footer/>
     </BrowserRouter>
     </AuthProvider>
+    </div>
       
       
       
