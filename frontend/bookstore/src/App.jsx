@@ -18,6 +18,7 @@ import BookDetail from './components/BookDetail'
 import AccountLayout from './components/orders/AccountLayout'
 import Wishlist from './components/orders/Wishlist'
 import Notifications from './components/orders/Notifications'
+import Chekout from './components/orders/Chekout'
 
 
 
@@ -39,6 +40,7 @@ function App() {
 
         <Route path='/orderdetail' element={<PrivateRoute><OrderDetails/></PrivateRoute>} />
         <Route path='/cart' element={<PrivateRoute><Cart/></PrivateRoute>} />
+        <Route path='/checkout' element={<PrivateRoute><Chekout/></PrivateRoute>} />
         
         <Route path='/account' element={<AccountLayout/>}>
           <Route index element={<PrivateRoute><Profile/></PrivateRoute>} />

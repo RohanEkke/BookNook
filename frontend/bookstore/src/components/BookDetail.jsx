@@ -1,10 +1,14 @@
 import React, { useState, useEffect } from 'react'
-import { useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import axiosInstance from '../axiosInstance';
 
 const BookDetail = () => {
   const {id} = useParams();
   const [book, setBook] = useState(null);
+  const [addingToCart, setAddingToCart] = useState(false);
+  const [addedToCart, setAddedToCart] = useState(false);
+  const navigate = useNavigate();
+
 
   console.log("book id =======>", id)
 
@@ -30,7 +34,51 @@ const BookDetail = () => {
   if (!book) {
     return <div className="container mt-5">Loading...</div>;
   }
-    
+  
+  const addToCart = async () => {
+
+    const getToken = localStorage.getItem("accessToken")
+
+    if (!getToken) {
+      navigate("/login");
+      return
+    }
+
+    if (addedToCart) {
+        return;
+    }
+
+    try {
+
+        await axiosInstance.post("/cart/add/", {
+            book_id: book.id,
+            quantity: 1
+        });
+
+        setAddedToCart(true);
+
+    } catch (error) {
+
+        console.log(
+            "Add to cart error ======>",
+            error.response?.data
+        );
+
+    }finally {
+        setAddingToCart(false);
+    }
+  };
+
+  const buyNow = () => {
+    const getToken = localStorage.getItem("accessToken");
+
+    if (!getToken) {
+      navigate("/login");
+      return;
+    }
+    navigate("/checkout")
+  }
+
   
   return (
     <>
@@ -84,9 +132,11 @@ const BookDetail = () => {
 
             <button
               className="btn btn-lg text-white px-4"
-              style={{ backgroundColor: "#A3572A" }}
+              style={{backgroundColor: addedToCart ? "#6c757d" : "#A3572A"}}
+              onClick={addToCart}
+              disabled={addingToCart}
             >
-              Add to Cart
+              {addingToCart ? "Adding..." : "Add to Cart"}
             </button>
 
             <button
@@ -95,6 +145,7 @@ const BookDetail = () => {
                 border: "1px solid #A3572A",
                 color: "#A3572A"
               }}
+              onClick={buyNow}
             >
               Buy Now
             </button>

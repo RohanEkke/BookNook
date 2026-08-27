@@ -25,6 +25,7 @@ from rest_framework_simplejwt.views import (
 from accounts import views as UserView
 from rest_framework.routers import DefaultRouter
 from catalog import views as Bookview
+from cart import views as CartView
 
 router = DefaultRouter()
 router.register('api/address', UserView.AddressViewSet, basename="address")
@@ -46,6 +47,12 @@ urlpatterns = [
     path("api/books/", Bookview.BookView.as_view(), name="books"),
 
     path("api/book/<int:id>/", Bookview.BookDetailsView.as_view()),
+
+    path("api/cart/", CartView.CartView.as_view(), name="cart"),
+
+    path("api/cart/add/", CartView.CartItemView.as_view(), name="cart-add"),
+
+    path("api/cart/items/<int:id>/", CartView.CartItemDetailView.as_view(), name="cart-item-detail"),
 ]
 
 urlpatterns += static(
