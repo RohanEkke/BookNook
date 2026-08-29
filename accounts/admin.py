@@ -13,7 +13,7 @@ class UserAdmin(admin.ModelAdmin):
 
 @admin.register(Address)
 class AddressAdmin(admin.ModelAdmin):
-    list_display = ["full_name", "user", "city", "state", "is_default"]
+    list_display = ["full_name", "user", "city", "state", "address_type", "is_default"]
     list_filter = ("address_type", "is_default")
     search_fields = ("full_name", "city", "user__email")
 

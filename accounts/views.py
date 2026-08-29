@@ -36,12 +36,66 @@ class UserProfileView(APIView):
             return Response(serializer.data)
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
-class AddressViewSet(viewsets.ModelViewSet):
-    serializer_class = AddressSerializer
+class AddressListCreateView(APIView):
     permission_classes = [IsAuthenticated]
 
-    def get_queryset(self):
-        return Address.objects.filter(user=self.request.user)
+    def get(self, request):
+        addresses = Address.objects.filter(user=request.user)
+        serializer = AddressSerializer(addresses, many=True)
+        return Response(serializer.data)
 
-    def perform_create(self, serializer):
-        serializer.save(user=self.request.user)
+    def post(self, request):
+        serializer = AddressSerializer(data=request.data)
+
+        if serializer.is_valid():
+            is_default = serializer.validated_data.get("is_default", False)
+
+            if is_default:
+                Address.objects.filter(user=request.user).update(is_default=False)
+
+            serializer.save(user=request.user)
+            return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+class AddressDetailView(APIView):
+    permission_classes = [IsAuthenticated]
+
+    def get_object(self, request, id):
+        try:
+            return Address.objects.get(id=id, user=request.user)
+        except Address.DoesNotExist:
+            return None
+
+    def patch(self, request, id):
+        address = self.get_object(request, id)
+
+        if not address:
+            return Response({"details":"Address not found"}, status=status.HTTP_404_NOT_FOUND)
+        
+        serializer = AddressSerializer(address, data=request.data, partial=True)
+
+        if serializer.is_valid():
+            is_default = serializer.validated_data.get("is_default", address.is_default)
+
+            if is_default:
+                Address.objects.filter(user=request.user).exclude(id=address.id).update(is_default=False)
+
+            serializer.save()
+
+            return Response(serializer.data)
+
+        return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
+
+    def delete(self, request, id):
+
+        address = self.get_object(request, id)
+
+        if not address:
+            return Response({"details":"Address not found"}, status=status.HTTP_404_NOT_FOUND)
+
+        address.delete()
+
+        return Response({"detail":"Address deleated successfully!"}, status=status.HTTP_204_NO_CONTENT)
+        
+ 

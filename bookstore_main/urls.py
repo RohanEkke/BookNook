@@ -27,8 +27,7 @@ from rest_framework.routers import DefaultRouter
 from catalog import views as Bookview
 from cart import views as CartView
 
-router = DefaultRouter()
-router.register('api/address', UserView.AddressViewSet, basename="address")
+
 
 urlpatterns = [
     path('admin/', admin.site.urls),
@@ -42,7 +41,9 @@ urlpatterns = [
 
     path("api/profile/", UserView.UserProfileView.as_view(), name="profile"),
 
-    path('', include(router.urls)),
+    path("api/addresses/", UserView.AddressListCreateView.as_view(), name="addresses"),
+
+    path("api/addresses/<int:id>/", UserView.AddressDetailView.as_view(), name="address-detail"),
 
     path("api/books/", Bookview.BookView.as_view(), name="books"),
 
