@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axiosInstance from '../../axiosInstance';
 
 const Address = () => {
+    
 
     const [fullname, setFullname] = useState('');
     const [mobileNumber, setMobileNumber] = useState('');
@@ -217,7 +218,7 @@ const Address = () => {
 
                 <div className="col-md-5">
 
-                    <h3 className="mb-4">
+                    <h3 className="mb-4 text-center">
                         My Addresses
                     </h3>
 
@@ -230,7 +231,6 @@ const Address = () => {
                     ) : (
 
                         addresses.map((address) => (
-
                             <div
                                 className="card mb-4 shadow-sm border-0 bg-light"
                                 key={address.id}
@@ -261,7 +261,7 @@ const Address = () => {
                                             className="btn btn-sm btn-outline-primary"
                                             onClick={() => handleEditAddress(address)}
                                         >
-                                            <i class="bi bi-pencil-square"></i>
+                                            <i className="bi bi-pencil-square"></i>
                                         </button>
 
                                         <button
@@ -270,7 +270,7 @@ const Address = () => {
                                             className="btn btn-sm btn-outline-danger"
                                             onClick={() => handleDeleteAddress(address.id)}
                                         >
-                                            <i class="bi bi-trash"></i>
+                                            <i className="bi bi-trash"></i>
                                         </button>
 
                                     </div>

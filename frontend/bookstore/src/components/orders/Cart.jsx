@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axiosInstance from '../../axiosInstance';
 import "../../assets/css/style.css"
 
@@ -7,6 +7,7 @@ const Cart = () => {
 
   const [cart, setCart] = useState(null);
   const [loading, setLoading] = useState(true);
+  const navigate = useNavigate();
 
 
   // =========================
@@ -141,6 +142,10 @@ const Cart = () => {
 
       </div>
     );
+  }
+  
+  const handleProcedToCheakout = () => {
+    navigate("/cheakout")
   }
 
 
@@ -367,6 +372,7 @@ const Cart = () => {
               <button
                 className="btn text-white w-100"
                 style={{ backgroundColor: "#A3572A" }}
+                onClick={handleProcedToCheakout}
               >
                 Proceed to Checkout
               </button>

@@ -26,6 +26,7 @@ from accounts import views as UserView
 from rest_framework.routers import DefaultRouter
 from catalog import views as Bookview
 from cart import views as CartView
+from orders import views as OrderViews
 
 
 
@@ -54,6 +55,8 @@ urlpatterns = [
     path("api/cart/add/", CartView.CartItemView.as_view(), name="cart-add"),
 
     path("api/cart/items/<int:id>/", CartView.CartItemDetailView.as_view(), name="cart-item-detail"),
+
+    path("api/orders/", OrderViews.OrderCreateAPIView.as_view(), name="create-order")
 ]
 
 urlpatterns += static(

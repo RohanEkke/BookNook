@@ -76,8 +76,14 @@ const BookDetail = () => {
       navigate("/login");
       return;
     }
-    navigate("/checkout")
+    navigate("/cheakout", {
+          state: {
+              bookId: book.id,
+              quantity: 1
+          }
+      });
   }
+
 
   
   return (
