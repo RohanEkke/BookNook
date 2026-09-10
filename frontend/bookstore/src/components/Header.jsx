@@ -1,48 +1,176 @@
-import React, { useContext } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
-import logo from '../assets/img/logo.png'
-import { AuthContext } from '../AuthProvider'
+import React, { useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import logo from "../assets/img/logo.png";
+import { AuthContext } from "../AuthProvider";
+import "bootstrap-icons/font/bootstrap-icons.css";
 
 const Header = () => {
-    const {isLoggedIn, setIsLoggedIn} = useContext(AuthContext)
-    const navigate = useNavigate()
+
+    const { isLoggedIn, setIsLoggedIn } = useContext(AuthContext);
+    const navigate = useNavigate();
+
     const handleLogout = () => {
-        localStorage.removeItem('accessToken')
-        localStorage.removeItem('refreshToken')
-        setIsLoggedIn(false)
-        navigate('/')
-    }
-  return (
-    <>
-    <nav className='navbar navbar-expand-lg bg-body-light shadow-sm'  >
-        <div className='container-fluid'>
-           <Link className="navbar-brand d-flex align-items-center" to="/">
-                <img src={logo} alt="Brand Logo" height="auto"width="auto"className="d-inline-block align-text-top me-2"/>
-            </Link>
-            <div className='d-flex align-items-center ms-auto gap-2'>
-            {isLoggedIn ? (
-                <>
-                <Link to="/cart"><button className="btn btn-outline-success">Cart</button></Link>
-                <Link to="/account"><button className='btn btn-outline-success'>Account</button></Link>
-                
-                <button className='btn btn-outline-danger' onClick={handleLogout}>Logout</button>
-                </>
-                
-            ) : (
-                <>
-                <Link to="/login"><button className='btn text-dark fw-bold' style={{ backgroundColor: '#fffff', borderColor: 'black' }}>Login</button></Link>
-                <Link to="/register"><button className='btn text-light fw-bold' style={{ backgroundColor: '#131F33'}}>SignUp</button></Link>
-                </>
-                
-            )}
+        localStorage.removeItem("accessToken");
+        localStorage.removeItem("refreshToken");
+
+        setIsLoggedIn(false);
+
+        navigate("/");
+    };
+
+
+    return (
+
+        <nav className="navbar navbar-expand-lg bg-white border-bottom shadow-sm sticky-top">
+
+            <div className="container-fluid px-3 px-md-4">
+
+
+                {/* =========================
+                    LOGO
+                ========================== */}
+
+                <Link
+                    to="/"
+                    className="navbar-brand d-flex align-items-center"
+                >
+
+                    <img
+                        src={logo}
+                        alt="BookNook"
+                        className="img-fluid"
+                        style={{
+                            maxHeight: "52px",
+                            width: "auto",
+                        }}
+                    />
+
+                </Link>
+
+
+
+                {/* =========================
+                    RIGHT SIDE
+                ========================== */}
+
+                <div className="d-flex align-items-center gap-2">
+
+
+                    {isLoggedIn ? (
+
+                        <>
+
+
+                            {/* CART */}
+
+                            <Link
+                                to="/cart"
+                                className="btn btn-outline-success d-flex align-items-center gap-2 rounded-3 px-3"
+                            >
+
+                                <i className="bi bi-cart3"></i>
+
+                                <span className="d-none d-sm-inline">
+                                    Cart
+                                </span>
+
+                            </Link>
+
+
+
+                            {/* ACCOUNT */}
+
+                            <Link
+                                to="/account"
+                                className="btn btn-outline-dark d-flex align-items-center gap-2 rounded-3 px-3"
+                            >
+
+                                <i className="bi bi-person-circle"></i>
+
+                                <span className="d-none d-sm-inline">
+                                    Account
+                                </span>
+
+                            </Link>
+
+                            <Link
+                                to="/chat-ai"
+                                className="btn btn-outline-dark d-flex align-items-center gap-2 rounded-3 px-3"
+                            >
+
+                                <span className="d-none d-sm-inline">
+                                    AI
+                                </span>
+
+                            </Link>
+
+
+
+                            {/* LOGOUT */}
+
+                            <button
+                                type="button"
+                                className="btn btn-outline-danger d-flex align-items-center gap-2 rounded-3 px-3"
+                                onClick={handleLogout}
+                            >
+
+                                <i className="bi bi-box-arrow-right"></i>
+
+                                <span className="d-none d-sm-inline">
+                                    Logout
+                                </span>
+
+                            </button>
+
+                        </>
+
+                    ) : (
+
+                        <>
+
+
+                            {/* LOGIN */}
+
+                            <Link
+                                to="/login"
+                                className="btn btn-outline-dark rounded-3 px-3"
+                            >
+
+                                <i className="bi bi-box-arrow-in-right me-1"></i>
+
+                                Login
+
+                            </Link>
+
+
+
+                            {/* SIGN UP */}
+
+                            <Link
+                                to="/register"
+                                className="btn text-white rounded-3 px-3"
+                                style={{
+                                    backgroundColor: "#A3572A",
+                                }}
+                            >
+
+                                <i className="bi bi-person-plus me-1"></i>
+
+                                Sign Up
+
+                            </Link>
+
+                        </>
+
+                    )}
+
+                </div>
+
             </div>
 
-        </div>
+        </nav>
 
-    </nav>
-    
-    </>
-  )
-}
+    );
+};
 
-export default Header
+export default Header;

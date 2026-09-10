@@ -20,6 +20,9 @@ import Wishlist from './components/orders/Wishlist'
 import Notifications from './components/orders/Notifications'
 import Chekout from './components/orders/Chekout'
 import OrderPlaced from './components/orders/OrderPlaced'
+import Genres from './components/Genres'
+import Books from './components/Books'
+import ChatAi from './components/orders/ChatAi'
 
 
 
@@ -35,14 +38,17 @@ function App() {
 
       <Routes>
         <Route path='/' element={<Homepage/>} />
+        <Route path='/genres' element={<Genres/>} />
+        <Route path='/books' element={<Books/>} />
         <Route path='/login' element={<PublicRoute><Login/></PublicRoute>} />
         <Route path='/register' element={<PublicRoute><Register/></PublicRoute>} />
         <Route path='/bookdetail/:id' element={<BookDetail/>} />
 
-        <Route path='/orderdetail' element={<PrivateRoute><OrderDetails/></PrivateRoute>} />
+        <Route path='/account/orders/:id' element={<PrivateRoute><OrderDetails/></PrivateRoute>} />
         <Route path='/cart' element={<PrivateRoute><Cart/></PrivateRoute>} />
         <Route path='/cheakout' element={<PrivateRoute><Chekout/></PrivateRoute>} />
-        <Route path='/order-placed' element={<PrivateRoute><OrderPlaced/></PrivateRoute>} />
+        <Route path='/order-success' element={<PrivateRoute><OrderPlaced/></PrivateRoute>} />
+        <Route path='/chat-ai' element={<PrivateRoute><ChatAi/></PrivateRoute>} />
         
         <Route path='/account' element={<AccountLayout/>}>
           <Route index element={<PrivateRoute><Profile/></PrivateRoute>} />

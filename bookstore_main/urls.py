@@ -27,6 +27,7 @@ from rest_framework.routers import DefaultRouter
 from catalog import views as Bookview
 from cart import views as CartView
 from orders import views as OrderViews
+from ai import views as AiView
 
 
 
@@ -56,7 +57,11 @@ urlpatterns = [
 
     path("api/cart/items/<int:id>/", CartView.CartItemDetailView.as_view(), name="cart-item-detail"),
 
-    path("api/orders/", OrderViews.OrderCreateAPIView.as_view(), name="create-order")
+    path("api/orders/", OrderViews.OrderCreateAPIView.as_view(), name="create-order"),
+
+    path("api/orders/<int:order_id>/", OrderViews.OrderCreateAPIView.as_view(), name="view-order"),
+
+    path("api/chat/", AiView.AiChatAPIView.as_view(), name="shopping-chat"),
 ]
 
 urlpatterns += static(

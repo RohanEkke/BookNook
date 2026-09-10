@@ -1,169 +1,613 @@
-import React, { useState, useEffect, useRef } from 'react'
-import tab1 from '../assets/img/tab1.png'
-import tab2 from '../assets/img/tab2.png'
-import tab3 from '../assets/img/tab3.png'
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-import mystery from '../assets/img/mystery.png'
-import fantasy from '../assets/img/fantasy.png'
-import friction from '../assets/img/friction.png'
-import nonfriction from '../assets/img/non-friction.png'
-import sifi from '../assets/img/si-fi.png'
-import biography from '../assets/img/biography.png'
-import axiosInstance from '../axiosInstance'
-import { Link } from 'react-router-dom'
+import React, { useState, useEffect, useRef } from "react";
+
+import tab1 from "../assets/img/tab1.png";
+import tab2 from "../assets/img/tab2.png";
+import tab3 from "../assets/img/tab3.png";
+
+import mystery from "../assets/img/mystery.png";
+import fantasy from "../assets/img/fantasy.png";
+import friction from "../assets/img/friction.png";
+import nonfriction from "../assets/img/non-friction.png";
+import sifi from "../assets/img/si-fi.png";
+import biography from "../assets/img/biography.png";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+
+import axiosInstance from "../axiosInstance";
+import { Link } from "react-router-dom";
+
 
 const Homepage = () => {
-  const [book, setBook] = useState([])
+
+  const [book, setBook] = useState([]);
+
+  const bookContainerRef = useRef(null);
+
+
+  /* =========================
+     GET BOOKS
+  ========================= */
+
   const getBook = async () => {
-    try{
-      const response = await axiosInstance.get("/books/")
-      console.log("book data======>", response.data)
-      setBook(response.data)
-    }catch(error){
-      console.log("error======>", error.response?.data)
+
+    try {
+
+      const response = await axiosInstance.get("/books/");
+
+      console.log("book data======>", response.data);
+
+      setBook(response.data);
+
+    } catch (error) {
+
+      console.log(
+        "error======>",
+        error.response?.data
+      );
+
     }
-  }
+
+  };
+
 
   useEffect(() => {
-      getBook();
-    }, [])
+    getBook();
+  }, []);
 
-  const bookContainerRef = useRef(null)
+
+  /* =========================
+     BESTSELLER SCROLL
+  ========================= */
 
   const scrollLeft = () => {
-    bookContainerRef.current.scrollBy({
-      left: -400,
-      behavior: "smooth"
+
+    bookContainerRef.current?.scrollBy({
+      left: -500,
+      behavior: "smooth",
     });
+
   };
+
 
   const scrollRight = () => {
-    bookContainerRef.current.scrollBy({
-      left: 400,
-      behavior: "smooth"
+
+    bookContainerRef.current?.scrollBy({
+      left: 500,
+      behavior: "smooth",
     });
+
   };
 
+
+  /* =========================
+     GENRES
+  ========================= */
+
+  const genres = [
+    {
+      name: "Sci-Fi",
+      image: sifi,
+      description: "Explore new worlds",
+    },
+    {
+      name: "Mystery",
+      image: mystery,
+      description: "Uncover the truth",
+    },
+    {
+      name: "Fiction",
+      image: friction,
+      description: "Stories that inspire",
+    },
+    {
+      name: "Non-Fiction",
+      image: nonfriction,
+      description: "Real stories",
+    },
+    {
+      name: "Biography",
+      image: biography,
+      description: "Lives that inspire",
+    },
+    {
+      name: "Fantasy",
+      image: fantasy,
+      description: "Where imagination lives",
+    },
+  ];
 
 
   return (
-    <>
-    
-    <div className='container'>
-      <div id="carouselExampleIndicators" className="carousel slide carousel-fade mt-5 mb-5">
-        <div className="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+
+    <main className="bg-light">
+
+
+      {/* =====================================================
+          HERO CAROUSEL
+      ====================================================== */}
+
+      <section className="container py-4">
+
+        <div
+          id="homepageCarousel"
+          className="carousel slide carousel-fade shadow-sm rounded-4 overflow-hidden"
+          data-bs-ride="carousel"
+        >
+
+          {/* Indicators */}
+
+          <div className="carousel-indicators">
+
+            <button
+              type="button"
+              data-bs-target="#homepageCarousel"
+              data-bs-slide-to="0"
+              className="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            />
+
+            <button
+              type="button"
+              data-bs-target="#homepageCarousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            />
+
+            <button
+              type="button"
+              data-bs-target="#homepageCarousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            />
+
+          </div>
+
+
+          {/* Slides */}
+
+          <div className="carousel-inner">
+
+            <div className="carousel-item active">
+
+              <img
+                src={tab1}
+                className="d-block w-100"
+                alt="Discover your next great read"
+              />
+
+            </div>
+
+
+            <div className="carousel-item">
+
+              <img
+                src={tab2}
+                className="d-block w-100"
+                alt="Book collection"
+              />
+
+            </div>
+
+
+            <div className="carousel-item">
+
+              <img
+                src={tab3}
+                className="d-block w-100"
+                alt="Explore books"
+              />
+
+            </div>
+
+          </div>
+
+
+          {/* Previous */}
+
+          <button
+            className="carousel-control-prev"
+            type="button"
+            data-bs-target="#homepageCarousel"
+            data-bs-slide="prev"
+          >
+
+            <span
+              className="carousel-control-prev-icon"
+              aria-hidden="true"
+            />
+
+            <span className="visually-hidden">
+              Previous
+            </span>
+
+          </button>
+
+
+          {/* Next */}
+
+          <button
+            className="carousel-control-next"
+            type="button"
+            data-bs-target="#homepageCarousel"
+            data-bs-slide="next"
+          >
+
+            <span
+              className="carousel-control-next-icon"
+              aria-hidden="true"
+            />
+
+            <span className="visually-hidden">
+              Next
+            </span>
+
+          </button>
+
         </div>
-        <div className="carousel-inner">
-          <div className="carousel-item active">
-            <img src={tab1} className="d-block w-100 rounded-3" />
-          </div>
-          <div className="carousel-item">
-            <img src={tab2} className="d-block w-100 rounded-3" />
-          </div>
-          <div className="carousel-item">
-            <img src={tab3} className="d-block w-100 rounded-3" />
-          </div>
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-          <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Previous</span>
-        </button>
-        <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-          <span className="visually-hidden">Next</span>
-        </button>
-      </div>
-      
-      <div className='container '>
-        <p className="h2 fw-bold">Browse by Genre</p>
-        <div className='row '>
 
-          <div className='col-md-3'>
-            <img src={sifi} className='rounded-3 shadow h-75 w-75'/>
-          </div>
+      </section>
 
-          <div className='col-md-3'>
-            <img src={mystery} className='rounded-3  shadow h-75 w-75'/>
-          </div>
 
-          <div className='col-md-3'>
-            <img src={friction} className='rounded-3  shadow h-75 w-75'/>
-          </div>
 
-          <div className='col-md-3'>
-            <img src={nonfriction} className='rounded-3  shadow h-75 w-75'/>
-          </div>
+      {/* =====================================================
+          GENRES
+      ====================================================== */}
 
-          <div className='col-md-3'>
-            <img src={biography} className='rounded-3  shadow h-75 w-75'/>
-          </div>
+      <section className="container py-3">
 
-          <div className='col-md-3'>
-            <img src={fantasy} className='rounded-3  shadow h-75 w-75'/>
-          </div>
 
-          
-        </div>
-      </div>
+        {/* Section Heading */}
 
-      <div className='container p-2'>
-        <div className="d-flex justify-content-between align-items-center mb-3">
+        <div className="d-flex justify-content-between align-items-end mb-4">
 
-          <p className="h2 fw-bold">Bestseller</p>
           <div>
-            <button
-              type="button"
-              className="btn btn-link text-secondary p-1"
-              onClick={scrollLeft}
-            >
-              <i className="bi bi-chevron-left fs-5"></i>
-            </button>
 
-            <button
-              type="button"
-              className="btn btn-link text-secondary p-1"
-              onClick={scrollRight}
-            >
-              <i className="bi bi-chevron-right fs-5"></i>
-            </button>
+            <p className="text-uppercase text-secondary fw-semibold small mb-1">
+              Explore
+            </p>
+
+            <h2 className="fw-bold mb-1">
+              Browse by Genre
+            </h2>
+
+            <p className="text-muted mb-0">
+              Find your next favorite book
+            </p>
+
           </div>
+
+
+          <Link
+            to="/genres"
+            className="text-decoration-none fw-semibold text-dark d-none d-md-block"
+          >
+            View all categories
+            <i className="bi bi-arrow-right ms-2"></i>
+          </Link>
+
         </div>
 
-        <div ref={bookContainerRef} className='d-flex gap-4 overflow-hidden'>
-          {book.map((book) =>  (
-            <div className='col-md-2' key={book.id}>
+
+
+        {/* Genre Cards */}
+
+        <div className="row g-3">
+
+
+          {genres.map((genre) => (
+
+            <div
+              className="col-6 col-md-4 col-lg-2"
+              key={genre.name}
+            >
+
+              <Link
+                to={`/books?genre=${genre.name}`}
+                className="text-decoration-none"
+              >
+
+                <div className="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+                  <img
+                    src={genre.image}
+                    className="card-img-top"
+                    alt={genre.name}
+                    style={{
+                      height: "150px",
+                      objectFit: "cover",
+                    }}
+                  />
+
+
+                  <div className="card-body p-3">
+
+                    <h6 className="fw-bold text-dark mb-1">
+                      {genre.name}
+                    </h6>
+
+                    <p className="text-muted small mb-2">
+                      {genre.description}
+                    </p>
+
+                    <span className="small fw-semibold text-dark">
+
+                      Explore
+
+                      <i className="bi bi-arrow-right ms-1"></i>
+
+                    </span>
+
+                  </div>
+
+                </div>
+
+              </Link>
+
+            </div>
+
+          ))}
+
+        </div>
+
+      </section>
+
+
+
+      {/* =====================================================
+          BESTSELLERS
+      ====================================================== */}
+
+      <section className="container py-5">
+
+
+        {/* Heading */}
+
+        <div className="d-flex justify-content-between align-items-center mb-4">
+
+
+          <div>
+
+            <p className="text-uppercase text-secondary fw-semibold small mb-1">
+              Popular picks
+            </p>
+
+            <h2 className="fw-bold mb-1">
+              Bestsellers
+            </h2>
+
+            <p className="text-muted mb-0">
+              Most loved by our readers
+            </p>
+
+          </div>
+
+
+          {/* Arrows */}
+
+          <div className="d-flex gap-2">
+
+            <button
+              type="button"
+              className="btn btn-outline-secondary rounded-circle"
+              onClick={scrollLeft}
+              aria-label="Previous books"
+            >
+
+              <i className="bi bi-chevron-left"></i>
+
+            </button>
+
+
+            <button
+              type="button"
+              className="btn btn-outline-secondary rounded-circle"
+              onClick={scrollRight}
+              aria-label="Next books"
+            >
+
+              <i className="bi bi-chevron-right"></i>
+
+            </button>
+
+          </div>
+
+        </div>
+
+
+
+        {/* Books */}
+
+        <div
+          ref={bookContainerRef}
+          className="d-flex gap-3 overflow-auto pb-3"
+          style={{
+            scrollbarWidth: "none",
+          }}
+        >
+
+
+          {book.map((book) => (
+
+            <div
+              key={book.id}
+              className="flex-shrink-0"
+              style={{
+                width: "210px",
+              }}
+            >
+
+
               <Link
                 to={`/bookdetail/${book.id}`}
                 className="text-decoration-none text-dark"
               >
-          
-                <div className=" h-100 w-100 ">
-                  
-                  <img src={`http://127.0.0.1:8000${book.image}`} className="card-img-top w-100 mx-auto m-1 border-1 rounded-3 shadow" />
-                  
-                  <div className="card-body">
-                    <h5 className="card-title fw-bold mb-0">{book.title}</h5>
-                    <p className="text-success fw-bold mb-0">{book.author}</p>
-                    <p className="text-muted fw-bold mb-0">{book.genre.join(", ")} </p>
-                    <p className="text-danger fw-bold mb-0">₹{book.price} </p>
+
+                <div className="card border-0 shadow-sm rounded-4 overflow-hidden h-100">
+
+
+                  {/* Book Image */}
+
+                  <div className="bg-light p-3">
+
+                    <img
+                      src={`http://127.0.0.1:8000${book.image}`}
+                      alt={book.title}
+                      className="card-img-top rounded-3 shadow-sm"
+                      style={{
+                        height: "250px",
+                        objectFit: "cover",
+                      }}
+                    />
+
                   </div>
-                  
+
+
+                  {/* Book Details */}
+
+                  <div className="card-body p-3 d-flex flex-column">
+
+
+                    <h6
+                      className="fw-bold mb-1"
+                      style={{
+                        minHeight: "40px",
+                      }}
+                    >
+                      {book.title}
+                    </h6>
+
+
+                    <p className="text-success small fw-semibold mb-1">
+                      {book.author}
+                    </p>
+
+
+                    <p
+                      className="text-muted small mb-2"
+                      style={{
+                        minHeight: "20px",
+                      }}
+                    >
+                      {book.genre?.join(", ")}
+                    </p>
+
+
+                    <div className="d-flex justify-content-between align-items-center mt-auto">
+
+
+                      <span className="text-danger fw-bold">
+                        ₹{book.price}
+                      </span>
+
+
+                      <span
+                        className="btn btn-sm text-white rounded-circle"
+                        style={{
+                          backgroundColor: "#A3572A",
+                          width: "34px",
+                          height: "34px",
+                        }}
+                      >
+
+                        <i className="bi bi-arrow-right"></i>
+
+                      </span>
+
+                    </div>
+
+                  </div>
+
                 </div>
+
               </Link>
+
             </div>
-          
+
           ))}
+
+
         </div>
-      </div>
-      
 
-    </div>
-    </>
-  )
-}
+      </section>
 
-export default Homepage
+
+
+      {/* =====================================================
+          WHY BOOKNOOK
+      ====================================================== */}
+
+      <section className="container pb-5">
+
+
+        <div className="bg-white rounded-4 shadow-sm p-4 p-md-5">
+
+
+          <div className="row g-4 text-center">
+
+
+            <div className="col-md-4">
+
+              <div className="fs-2 text-success mb-2">
+                <i className="bi bi-book"></i>
+              </div>
+
+              <h6 className="fw-bold">
+                Thousands of Books
+              </h6>
+
+              <p className="text-muted small mb-0">
+                Discover books across every genre.
+              </p>
+
+            </div>
+
+
+            <div className="col-md-4">
+
+              <div className="fs-2 text-success mb-2">
+                <i className="bi bi-truck"></i>
+              </div>
+
+              <h6 className="fw-bold">
+                Fast Delivery
+              </h6>
+
+              <p className="text-muted small mb-0">
+                Get your favorite books delivered to your door.
+              </p>
+
+            </div>
+
+
+            <div className="col-md-4">
+
+              <div className="fs-2 text-success mb-2">
+                <i className="bi bi-shield-check"></i>
+              </div>
+
+              <h6 className="fw-bold">
+                Secure Shopping
+              </h6>
+
+              <p className="text-muted small mb-0">
+                Safe and secure checkout every time.
+              </p>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+    </main>
+  );
+};
+
+
+export default Homepage;

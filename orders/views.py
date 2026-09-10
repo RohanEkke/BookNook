@@ -8,11 +8,47 @@ from .models import Order, OrderItem
 from catalog.models import Book
 from accounts.models import Address
 from cart.models import Cart, CartItem
+from django.db import transaction
+from django.http import Http404
 
 
 
 class OrderCreateAPIView(APIView):
     permission_classes = [IsAuthenticated]
+
+    def get(self, request, order_id=None):
+    
+        if order_id:
+
+            try:
+                order = Order.objects.get(
+                    id=order_id,
+                    user=request.user
+                )
+            except Order.DoesNotExist:
+                return Response(
+                    {"error": "Order not found"},
+                    status=status.HTTP_404_NOT_FOUND
+                )
+
+            serializer = OrderSerializer(order)
+
+            return Response(serializer.data)
+
+        orders = Order.objects.filter(
+            user=request.user
+        ).order_by("-created_at")
+
+        serializer = OrderSerializer(
+            orders,
+            many=True
+        )
+
+        return Response(
+            serializer.data,
+            status=status.HTTP_200_OK
+        )
+
 
     def post(self, request):
         address_id = request.data.get("address_id")
@@ -31,7 +67,6 @@ class OrderCreateAPIView(APIView):
 
         try:
             address = Address.objects.get(id=address_id, user=request.user)
-
         except Address.DoesNotExist:
             return Response({"error":"Address not found"}, status=status.HTTP_404_NOT_FOUND)
 
@@ -58,11 +93,13 @@ class OrderCreateAPIView(APIView):
 
             total_amount = book.price * quantity
 
-            order = Order.objects.create(user=request.user, address=address, total_amount=total_amount, payment_method=payment_method)
+            with transaction.atomic():
 
-            OrderItem.objects.create(order=order, book=book, quantity=quantity, price=book.price)
-            book.stock -= quantity
-            book.save()
+                order = Order.objects.create(user=request.user, address=address, total_amount=total_amount, payment_method=payment_method)
+
+                OrderItem.objects.create(order=order, book=book, quantity=quantity, price=book.price)
+                book.stock -= quantity
+                book.save()
 
         else:
             try:
@@ -88,16 +125,19 @@ class OrderCreateAPIView(APIView):
                     return Response({"error": f"Not enougn stock for {item.book.title}"}, status=status.HTTP_400_BAD_REQUEST)
 
                 total_amount += item.book.price * item.quantity
+                
 
-            order = Order.objects.create(user=request.user, address=address, total_amount=total_amount, payment_method=payment_method)
+            with transaction.atomic():
 
-            for item in cart_items:
-                OrderItem.objects.create(order=order, book=item.book, quantity=item.quantity, price=item.book.price)
+                order = Order.objects.create(user=request.user, address=address, total_amount=total_amount, payment_method=payment_method)
 
-                item.book.stock -= item.quantity
-                item.book.save()
+                for item in cart_items:
+                    OrderItem.objects.create(order=order, book=item.book, quantity=item.quantity, price=item.book.price)
 
-            cart_items.delete()
+                    item.book.stock -= item.quantity
+                    item.book.save()
+
+                cart_items.delete()
 
 
         serializer = OrderSerializer(order)
