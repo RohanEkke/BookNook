@@ -102,5 +102,103 @@ BOOK_TOOL_SCHEMA = [
                 "required": []
             }
         }
+    },
+    {
+        "type": "function",
+        "function": {
+            "name": "get_cart",
+            "description": (
+                "Get the current user's shopping cart. "
+                "Use this when the user asks to see, view, check, "
+                "or know what is currently in their cart."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {},
+                "required": []
+            }
+        }
+    },
+
+    {
+        "type": "function",
+        "function": {
+            "name": "add_to_cart",
+            "description": (
+                "Add a book to the user's shopping cart. "
+                "Use this when the user explicitly wants to add or buy "
+                "a specific book. If the book is already in the cart, "
+                "the quantity will be increased."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "book_id": {
+                        "type": "integer",
+                        "description": "The ID of the book to add to the cart."
+                    },
+                    "quantity": {
+                        "type": "integer",
+                        "description": (
+                            "Number of copies to add. "
+                            "Must be at least 1."
+                        )
+                    }
+                },
+                "required": ["book_id", "quantity"]
+            }
+        }
+    },
+
+    {
+        "type": "function",
+        "function": {
+            "name": "update_cart_quantity",
+            "description": (
+                "Change the quantity of a book that is already in the "
+                "user's cart. This sets the quantity to the specified "
+                "number; it does not add that number to the existing quantity."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "book_id": {
+                        "type": "integer",
+                        "description": "The ID of the book in the cart."
+                    },
+                    "quantity": {
+                        "type": "integer",
+                        "description": (
+                            "The new total quantity for this book. "
+                            "Must be at least 1."
+                        )
+                    }
+                },
+                "required": ["book_id", "quantity"]
+            }
+        }
+    },
+
+    {
+        "type": "function",
+        "function": {
+            "name": "remove_from_cart",
+            "description": (
+                "Remove a specific book completely from the user's cart. "
+                "Use this when the user asks to remove, delete, or take "
+                "a book out of their cart."
+            ),
+            "parameters": {
+                "type": "object",
+                "properties": {
+                    "book_id": {
+                        "type": "integer",
+                        "description": "The ID of the book to remove from the cart."
+                    }
+                },
+                "required": ["book_id"]
+            }
+        }
     }
+
 ]

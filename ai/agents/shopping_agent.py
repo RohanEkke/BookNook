@@ -8,6 +8,12 @@ from ai.tools.book_tools import (
     compare_books,
     get_recommendations,
 )
+from ai.tools.cart_tools import (
+    add_to_cart,
+    remove_from_cart,
+    get_cart,
+    update_cart_quantity,
+)
 from openai import OpenAI
 from django.conf import settings
 from ai.models import Conversation, Message, AgentLog, Agent
@@ -15,7 +21,7 @@ from ai.prompts.shopping_prompts import SHOPPING_AGENT_SYSTEM_PROMPT
 from ai.schemas.tool_schemas import BOOK_TOOL_SCHEMA
 from decouple import config
 
-def execute_tool(tool_name, tool_input, conversation_id=None):
+def execute_tool(tool_name, tool_input, user_id, conversation_id=None, ):
 
     try:
         # Convert JSON string into dictionary
@@ -28,26 +34,54 @@ def execute_tool(tool_name, tool_input, conversation_id=None):
                 category=tool_input.get("category"),
             )
 
-        if tool_name == "get_book_detail":
+        elif tool_name == "get_book_detail":
             return get_book_detail(
                 book_id=tool_input.get("book_id")
             )
 
-        if tool_name == "check_book_stock":
+        elif tool_name == "check_book_stock":
             return check_book_stock(
                 book_id=tool_input.get("book_id")
             )
 
-        if tool_name == "compare_books":
+        elif tool_name == "compare_books":
             return compare_books(
                 tool_input.get("book_ids")
             )
 
-        if tool_name == "get_recommendations":
+        elif tool_name == "get_recommendations":
             return get_recommendations(
                 query=tool_input.get("query"),
                 max_price=tool_input.get("max_price"),
                 category=tool_input.get("category"),
+            )
+
+        elif tool_name == "get_cart":
+            return get_cart(
+                user_id=user_id
+            )
+
+        elif tool_name == "add_to_cart":
+            return add_to_cart(
+                user_id=user_id,
+                book_id=tool_input.get("book_id"),
+                quantity=tool_input.get("quantity"),
+            )
+
+        elif tool_name == "update_cart_quantity":
+            return update_cart_quantity(
+                user_id=user_id,
+                book_id=tool_input.get("book_id"),
+                quantity=tool_input.get("quantity"),
+            )
+
+        elif tool_name == "remove_from_cart":
+            print("EXECUTE remove_from_cart")
+            print("user_id =", user_id)
+            print("book_id =", tool_input["book_id"])
+            return remove_from_cart(
+                user_id=user_id,
+                book_id=tool_input.get("book_id"),
             )
 
         return {
@@ -74,6 +108,7 @@ client = OpenAI(
 
 
 def run_shopping_agent(user_message, conversation_id, user_id):
+    print("user message: ", user_message)
 
     # Get conversation
     try:
@@ -98,6 +133,8 @@ def run_shopping_agent(user_message, conversation_id, user_id):
         event_type="agent_start",
         message=f"Shopping agent started for user {user_id}"
     )
+
+
 
     # Get recent conversation history
     last_messages = (
@@ -213,6 +250,10 @@ def run_shopping_agent(user_message, conversation_id, user_id):
             tool_name = tool_call.function.name
             tool_arguments = tool_call.function.arguments
 
+            print("TOOL NAME:", tool_name)
+            print("TOOL ARGUMENTS:", tool_arguments)
+            print("USER ID:", user_id)
+
             AgentLog.objects.create(
                 conversation=conversation,
                 event_type="tool_call",
@@ -225,7 +266,8 @@ def run_shopping_agent(user_message, conversation_id, user_id):
             result = execute_tool(
                 tool_name=tool_name,
                 tool_input=tool_arguments,
-                conversation_id=conversation_id
+                conversation_id=conversation_id,
+                user_id=user_id
             )
 
             # Convert result to JSON string
