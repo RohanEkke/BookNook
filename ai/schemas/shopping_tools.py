@@ -102,7 +102,10 @@ BOOK_TOOL_SCHEMA = [
                 "required": []
             }
         }
-    },
+    }
+]
+
+CART_TOOL_SCHEMA = [
     {
         "type": "function",
         "function": {
@@ -202,3 +205,5 @@ BOOK_TOOL_SCHEMA = [
     }
 
 ]
+
+
