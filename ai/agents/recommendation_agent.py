@@ -1,0 +1,243 @@
+from ai.schemas.recommendation_tool_schemas import RECOMMENDATION_TOOLS
+from ai.prompts.recommendation_prompt import RECOMMENDATION_SYSTEM_PROMPT
+from ai.tools.recommendation_tools import get_recommendations, get_personalized_recommendations, get_similar_books
+import json
+from openai import OpenAI
+from django.conf import settings
+from ai.models import Conversation, Message, AgentLog, Agent
+from decouple import config
+
+
+def execute_tool(tool_name, tool_input, user_id, conversation_id=None, ):
+
+    try:
+        # Convert JSON string into dictionary
+        tool_input = json.loads(tool_input)
+
+        if tool_name == "get_recommendations":
+            return get_recommendations(
+                genre=tool_input.get("genre"),
+                max_price=tool_input.get("max_price"),
+                author=tool_input.get("author"),
+            )
+
+        elif tool_name == "get_personalized_recommendations":
+            return get_personalized_recommendations(
+                user_id=user_id
+            )
+
+        elif tool_name == "get_similar_books":
+            return get_similar_books(
+                book_id=tool_input.get("book_id")
+            )
+
+        return {
+            "success": False,
+            "error": f"Unknown tool: {tool_name}"
+        }
+
+    except json.JSONDecodeError:
+        return {
+            "success": False,
+            "error": "Invalid tool input JSON."
+        }
+
+    except Exception as e:
+        return {
+            "success": False,
+            "error": str(e)
+        }
+
+client = OpenAI(
+    api_key= settings.OPENROUTER_API_KEY,
+    base_url= settings.BASE_URL
+)
+
+def run_recommendation_agent(user_message, conversation_id, user_id):
+    print("user message: ", user_message)
+
+    # Get conversation
+    try:
+        conversation = Conversation.objects.get(
+            id=conversation_id,
+            user_id=user_id
+        )
+    except Conversation.DoesNotExist:
+        return {
+            "success": False,
+            "error": "Conversation not found."
+        }
+
+    Message.objects.create(
+        conversation=conversation,
+        role="user",
+        content=user_message
+    )
+
+    AgentLog.objects.create(
+        conversation=conversation,
+        event_type="agent_start",
+        message=f"Shopping agent started for user {user_id}"
+    )
+
+
+
+    # Get recent conversation history
+    last_messages = (
+        conversation.messages
+        .exclude(role="tool")
+        .order_by("-created_at")[:10]
+    )
+
+    conversation_messages = [
+        {
+            "role": message.role,
+            "content": message.content
+        }
+        for message in reversed(last_messages)
+    ]
+
+    # System message
+    messages = [
+        {
+            "role": "system",
+            "content": (
+                f"{RECOMMENDATION_SYSTEM_PROMPT}\n\n"
+                f"Current user ID: {user_id}"
+            )
+        },
+        *conversation_messages,
+        {
+            "role": "user",
+            "content": user_message
+        }
+    ]
+
+  
+
+    # Agent loop
+    while True:
+
+        try:
+            
+            response = client.chat.completions.create(
+                model=conversation.agent.model,
+                messages=messages,
+                tools=RECOMMENDATION_TOOLS,
+                temperature=0.2,
+            )
+
+        except Exception as e:
+
+            AgentLog.objects.create(
+                conversation=conversation,
+                event_type="error",
+                message=str(e)
+            )
+
+            return {
+                "success": False,
+                "error": "Agent failed to process the request."
+            }
+
+        assistant_message = response.choices[0].message
+
+        # --------------------------------
+        # No tool call → final response
+        # --------------------------------
+        if not assistant_message.tool_calls:
+
+            final_reply = assistant_message.content or ""
+            print("finall reply=======>", final_reply)
+
+            # Save assistant response
+            Message.objects.create(
+                conversation=conversation,
+                role="assistant",
+                content=final_reply
+            )
+
+            AgentLog.objects.create(
+                conversation=conversation,
+                event_type="agent_end",
+                message="Shopping agent completed successfully."
+            )
+
+            return {
+                "success": True,
+                "reply": final_reply
+            }
+
+        # --------------------------------
+        # Add assistant tool-call message
+        # --------------------------------
+        messages.append(
+            {
+                "role": "assistant",
+                "content": assistant_message.content or "",
+                "tool_calls": [
+                    {
+                        "id": tool_call.id,
+                        "type": "function",
+                        "function": {
+                            "name": tool_call.function.name,
+                            "arguments": tool_call.function.arguments,
+                        },
+                    }
+                    for tool_call in assistant_message.tool_calls
+                ],
+            }
+        )
+
+        # --------------------------------
+        # Execute tools
+        # --------------------------------
+        for tool_call in assistant_message.tool_calls:
+
+            
+
+            tool_name = tool_call.function.name
+            tool_arguments = tool_call.function.arguments
+
+            print("TOOL NAME:", tool_name)
+            print("TOOL ARGUMENTS:", tool_arguments)
+            print("USER ID:", user_id)
+
+            AgentLog.objects.create(
+                conversation=conversation,
+                event_type="tool_call",
+                message=(
+                    f"Calling tool: {tool_name}\n"
+                    f"Arguments: {tool_arguments}"
+                )
+            )
+
+            result = execute_tool(
+                tool_name=tool_name,
+                tool_input=tool_arguments,
+                conversation_id=conversation_id,
+                user_id=user_id
+            )
+
+            # Convert result to JSON string
+            if not isinstance(result, str):
+                result = json.dumps(result)
+
+            AgentLog.objects.create(
+                conversation=conversation,
+                event_type="tool_result",
+                message=(
+                    f"Tool: {tool_name}\n"
+                    f"Result: {result}"
+                )
+            )
+
+            # Add tool result back to conversation
+            messages.append(
+                {
+                    "role": "tool",
+                    "tool_call_id": tool_call.id,
+                    "content": result,
+                }
+            )
+

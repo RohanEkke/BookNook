@@ -1,4 +1,4 @@
-from ai.schemas.support_tools import ORDER_TOOL_SCHEMA
+from ai.schemas.support_tools_schemas import ORDER_TOOL_SCHEMA
 from ai.tools.order_tools import (
     get_tracking_history, 
     get_return_status, 

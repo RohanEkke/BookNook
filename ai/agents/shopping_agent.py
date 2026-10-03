@@ -18,7 +18,7 @@ from openai import OpenAI
 from django.conf import settings
 from ai.models import Conversation, Message, AgentLog, Agent
 from ai.prompts.shopping_prompts import SHOPPING_AGENT_SYSTEM_PROMPT
-from ai.schemas.shopping_tools import BOOK_TOOL_SCHEMA, CART_TOOL_SCHEMA
+from ai.schemas.shopping_tools_schemas import BOOK_TOOL_SCHEMA, CART_TOOL_SCHEMA
 from decouple import config
 
 def execute_tool(tool_name, tool_input, user_id, conversation_id=None, ):
