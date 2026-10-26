@@ -81,22 +81,6 @@ def run_recommendation_agent(user_message, conversation_id, user_id):
     )
 
 
-
-    # Get recent conversation history
-    last_messages = (
-        conversation.messages
-        .exclude(role="tool")
-        .order_by("-created_at")[:10]
-    )
-
-    conversation_messages = [
-        {
-            "role": message.role,
-            "content": message.content
-        }
-        for message in reversed(last_messages)
-    ]
-
     # System message
     messages = [
         {
@@ -106,7 +90,7 @@ def run_recommendation_agent(user_message, conversation_id, user_id):
                 f"Current user ID: {user_id}"
             )
         },
-        *conversation_messages,
+        
         {
             "role": "user",
             "content": user_message

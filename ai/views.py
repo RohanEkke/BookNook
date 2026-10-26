@@ -4,7 +4,8 @@ from rest_framework.response import Response
 from rest_framework import status
 
 from .models import Agent, Conversation
-from ai.agents.shopping_agent import run_shopping_agent
+# from ai.agents.shopping_agent import run_shopping_agent
+from ai.agents.orchestrator import run_orchestrator
 
 
 class AiChatAPIView(APIView):
@@ -82,7 +83,7 @@ class AiChatAPIView(APIView):
         # Run shopping agent
         # -----------------------------
 
-        result = run_shopping_agent(
+        result = run_orchestrator(
             user_message=user_message,
             conversation_id=conversation.id,
             user_id=request.user.id

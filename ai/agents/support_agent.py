@@ -138,25 +138,17 @@ def run_support_agent(user_message, conversation_id, user_id):
         message=f"Support agent started for user {user_id}"
     )
 
-    last_messages = (
-        conversation.messages
-        .exclude(role="tool")
-        .order_by("-created_at")[:10]
-    )
-
-    conversation_messages = [
-        {
-        "role":message.role,
-        "content":message.content
-        }for message in reversed(last_messages)
-    ]
+    
 
     messages = [
         {
             "role":"system",
             "content": SUPPORT_AGENT_PROMPT
         },
-        *conversation_messages,
+        {
+        "role": "user",
+        "content": user_message,
+        },
         
     ]
 
