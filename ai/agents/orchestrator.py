@@ -4,16 +4,16 @@ from django.conf import settings
 from .recommendation_agent import run_recommendation_agent
 from .shopping_agent import run_shopping_agent
 from .support_agent import run_support_agent
-from ai.models import Conversation
+from ai.models import Conversation, Message
 from ai.prompts.orchestrator_prompt import ORCHESTRATOR_PROMPT
 from ai.schemas.orchestrator_tool_schemas import AGENT_TOOLS
 
 client = OpenAI(
-    api_key=settings.OPENROUTER_API_KEY,
+    api_key=settings.AI_CRED_KEY,
     base_url=settings.BASE_URL,
 )
 
-MODEL = "openai/gpt-4o-mini"
+
 
 
 def execute_agent_tool(
@@ -91,16 +91,12 @@ def run_orchestrator(
         role="tool"
     ).order_by("-created_at")[:10]
 
+    
     history = []
 
     for message in reversed(list(messages)):
         # The API may already have saved the current user message.
         # Avoid adding it twice to the orchestrator's history.
-        if (
-            message.role == "user"
-            and message.content == user_message
-        ):
-            continue
 
         if message.role in ("user", "assistant"):
             history.append({
@@ -114,11 +110,20 @@ def run_orchestrator(
         "content": user_message,
     })
 
+    # Save the actual user message to the database.
+    Message.objects.create(
+        conversation=conversation,
+        role="user",
+        content=user_message,
+    )
+
+    print(f"=======================history===============\n {history} \n=================")
+
     # Keep this request's tool results in the orchestrator's own
     # working context. Do not confuse them with user messages.
     for _ in range(8):
         response = client.chat.completions.create(
-            model=MODEL,
+            model=conversation.agent.model,
             messages=[
                 {
                     "role": "system",
@@ -131,15 +136,26 @@ def run_orchestrator(
             parallel_tool_calls=False,
         )
 
+        print("Input tokens:", response.usage.prompt_tokens)
+
         assistant_message = response.choices[0].message
 
-        # No more tool calls: the orchestrator has its final answer.
         if not assistant_message.tool_calls:
+
+            final_reply = assistant_message.content or (
+                "I couldn't prepare a response. Please try again."
+            )
+
+            # Save the final orchestrator response.
+            Message.objects.create(
+                conversation=conversation,
+                role="assistant",
+                content=final_reply,
+            )
+
             return {
                 "success": True,
-                "reply": assistant_message.content or (
-                    "I couldn't prepare a response. Please try again."
-                ),
+                "reply": final_reply,
             }
 
         # Add the assistant's tool-call message to the LLM context.

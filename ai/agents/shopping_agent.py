@@ -102,7 +102,7 @@ def execute_tool(tool_name, tool_input, user_id, conversation_id=None, ):
         }
 
 client = OpenAI(
-    api_key= settings.OPENROUTER_API_KEY,
+    api_key= settings.AI_CRED_KEY,
     base_url= settings.BASE_URL
 )
 
@@ -122,12 +122,7 @@ def run_shopping_agent(user_message, conversation_id, user_id):
             "error": "Conversation not found."
         }
 
-    Message.objects.create(
-        conversation=conversation,
-        role="user",
-        content=user_message
-    )
-
+    
     AgentLog.objects.create(
         conversation=conversation,
         event_type="agent_start",
@@ -192,13 +187,7 @@ def run_shopping_agent(user_message, conversation_id, user_id):
             final_reply = assistant_message.content or ""
             print("finall reply=======>", final_reply)
 
-            # Save assistant response
-            Message.objects.create(
-                conversation=conversation,
-                role="assistant",
-                content=final_reply
-            )
-
+           
             AgentLog.objects.create(
                 conversation=conversation,
                 event_type="agent_end",
