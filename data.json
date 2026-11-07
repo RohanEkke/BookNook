@@ -1,0 +1,5497 @@
+[
+{
+  "model": "sessions.session",
+  "pk": "5dj0mo4yf4dfqpnh16puxtxgxrur66re",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2hCgw7S4dO8ZCMyAVA0kpV0Z765NutDtf-_9l_BhW4vfelr8zOIstDj9bjHQI9Ud8D3UW5PU6rrMUe6KPGiX18bpeTncv4MSevnWmZXBpAkBXB7MBEpDzmxJBZwMWrSKxpSdA2V1hjFaFQwOjDFCdMTi_QHKqTdz:1xPieB:YH0y0WZEkPXT0YEZEu2DeG_oTcpL66R-yCl5QWbHc9M",
+    "expire_date": "2026-11-21T15:48:03.021Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "7c19xmp5aogam3up1jmn12abbjlxqg3m",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQAP9lz6bpQtkCR-9-A9lHa1EDCY-T8d8NCQe9zkzmDQPvWxn2NS3DaNADwuWXCeszTYewB0_32ek8bcso7kjcaVd3my29rmf7Nyi8FuhBooYYsKGq0ZhrbJk8JU-mdUDFzrQ2LzllblG5yyJVx-SNcoUhkcDnC98hOFM:1x2p8n:uG3NmSZDynHfvnz7XEfg-ClbvbQElRY_X6_DrC5tCuo",
+    "expire_date": "2026-09-19T12:05:01.474Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9oud95c5qvndhvq6rfojltafg9zyr9uh",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQAP9lz6bpQtkCR-9-A9lHa1EDCY-T8d8NCQe9zkzmDQPvWxn2NS3DaNADwuWXCeszTYewB0_32ek8bcso7kjcaVd3my29rmf7Nyi8FuhBooYYsKGq0ZhrbJk8JU-mdUDFzrQ2LzllblG5yyJVx-SNcoUhkcDnC98hOFM:1xKP44:1U0XBi-N6GaopumXz2BNWTlmlKT7yWVGSiG1iTiWh8Q",
+    "expire_date": "2026-11-06T23:52:48.370Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "apmqa1s58shguk6h2bzmddla69s58kl4",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQAP9lz6bpQtkCR-9-A9lHa1EDCY-T8d8NCQe9zkzmDQPvWxn2NS3DaNADwuWXCeszTYewB0_32ek8bcso7kjcaVd3my29rmf7Nyi8FuhBooYYsKGq0ZhrbJk8JU-mdUDFzrQ2LzllblG5yyJVx-SNcoUhkcDnC98hOFM:1wxNOj:XKtU7Fk4RMqwiFU9e4xIFFh8KAKtoZKryYsTd0BRXmA",
+    "expire_date": "2026-09-04T11:26:57.017Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fpg0a997jod69fv1lvte8niyef8v5w2s",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQAP9lz6bpQtkCR-9-A9lHa1EDCY-T8d8NCQe9zkzmDQPvWxn2NS3DaNADwuWXCeszTYewB0_32ek8bcso7kjcaVd3my29rmf7Nyi8FuhBooYYsKGq0ZhrbJk8JU-mdUDFzrQ2LzllblG5yyJVx-SNcoUhkcDnC98hOFM:1x7zo1:1hE0sbW_swUnNpLgUHyPrpQLrpg0BxBncSXWXB9fI8w",
+    "expire_date": "2026-10-03T18:28:57.805Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "y7ly6uppbtih3pj6p0txd59k9ru279ut",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAQAP9lz6bpQtkCR-9-A9lHa1EDCY-T8d8NCQe9zkzmDQPvWxn2NS3DaNADwuWXCeszTYewB0_32ek8bcso7kjcaVd3my29rmf7Nyi8FuhBooYYsKGq0ZhrbJk8JU-mdUDFzrQ2LzllblG5yyJVx-SNcoUhkcDnC98hOFM:1wrxM5:PW8ivOsLd--UAmJSMuq_9y3QVwtgkZbPknYRXQDbyAc",
+    "expire_date": "2026-08-20T12:37:49.786Z"
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1000000$Kn1HkPIY7Oi7JPHzAcsm5Y$EgjKEDhhiB3Q28+jfruIRc57G1gjGNiD4Nz+FfuEbX0=",
+    "last_login": "2026-11-07T15:48:03.013Z",
+    "is_superuser": true,
+    "first_name": "demo",
+    "last_name": "test",
+    "email": "staff@gmail.com",
+    "phone": "7972209902",
+    "profile_image": "upload/profile_images/profile_photo_5jgeKKB.jpeg",
+    "date_joined": "2026-08-05T21:59:40.532Z",
+    "is_staff": true,
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.user",
+  "fields": {
+    "password": "pbkdf2_sha256$1200000$gu9cNPBPxXpeh5d6pwZipP$ewW27P2ic8z1LF4AquXYVJGVwvlyncYUMDlPokme5rc=",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "demo",
+    "last_name": "user",
+    "email": "rohan@gmail.com",
+    "phone": "",
+    "profile_image": "",
+    "date_joined": "2026-09-02T20:16:22.715Z",
+    "is_staff": false,
+    "is_active": true,
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "accounts.address",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "full_name": "Rohan Ekke",
+    "phone": "1111111111",
+    "address_type": "work",
+    "address_line_1": "dvvd",
+    "address_line_2": "zdvd",
+    "city": "pune",
+    "state": "Maharashtra",
+    "postal_code": "444444",
+    "country": "India",
+    "is_default": false,
+    "created_at": "2026-08-09T23:45:21.104Z",
+    "updated_at": "2026-08-29T17:26:53.623Z"
+  }
+},
+{
+  "model": "accounts.address",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "full_name": "hfhtf",
+    "phone": "hgchg",
+    "address_type": "other",
+    "address_line_1": "hhc",
+    "address_line_2": "hdyt",
+    "city": "htch",
+    "state": "Maharashtra",
+    "postal_code": "255555",
+    "country": "tft",
+    "is_default": true,
+    "created_at": "2026-08-29T17:27:32.489Z",
+    "updated_at": "2026-08-29T17:27:32.489Z"
+  }
+},
+{
+  "model": "accounts.address",
+  "pk": 8,
+  "fields": {
+    "user": [
+      "rohan@gmail.com"
+    ],
+    "full_name": "Rohan Ekke",
+    "phone": "7777777777",
+    "address_type": "other",
+    "address_line_1": "Flat no 04, appt no A2, Basil Homes, kasat nagar,",
+    "address_line_2": "near Mahesh Sanskriti bhavan",
+    "city": "pune",
+    "state": "Maharashtra",
+    "postal_code": "411037",
+    "country": "India",
+    "is_default": true,
+    "created_at": "2026-09-05T11:53:12.444Z",
+    "updated_at": "2026-09-05T11:53:12.445Z"
+  }
+},
+{
+  "model": "accounts.address",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "rohan@gmail.com"
+    ],
+    "full_name": "hgvhvj",
+    "phone": "2222222222",
+    "address_type": "home",
+    "address_line_1": "dfvgrdsrv",
+    "address_line_2": "sdvfsd",
+    "city": "edcfsdc",
+    "state": "asdcsdc",
+    "postal_code": "451525",
+    "country": "sefcwef",
+    "is_default": false,
+    "created_at": "2026-09-05T12:03:05.060Z",
+    "updated_at": "2026-09-05T12:03:05.060Z"
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "created_at": "2026-08-25T14:31:40.867Z",
+    "updated_at": "2026-08-25T14:31:40.867Z"
+  }
+},
+{
+  "model": "cart.cart",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "rohan@gmail.com"
+    ],
+    "created_at": "2026-09-02T20:16:57.032Z",
+    "updated_at": "2026-09-02T20:16:57.032Z"
+  }
+},
+{
+  "model": "cart.cartitem",
+  "pk": 13,
+  "fields": {
+    "cart": 2,
+    "book": 4,
+    "quantity": 1
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 1,
+  "fields": {
+    "name": "Sci-Fi"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 2,
+  "fields": {
+    "name": "Mystery"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 3,
+  "fields": {
+    "name": "Fiction"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 4,
+  "fields": {
+    "name": "Non-Fiction"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 5,
+  "fields": {
+    "name": "Biography"
+  }
+},
+{
+  "model": "catalog.genre",
+  "pk": 6,
+  "fields": {
+    "name": "Fantasy"
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 1,
+  "fields": {
+    "title": "The Silent Witness",
+    "author": "Alex Morgan",
+    "description": "A detective investigates a mysterious disappearance where the only witness refuses to speak. As hidden clues emerge, the case becomes more dangerous than anyone expected.",
+    "price": "399.00",
+    "stock": 21,
+    "image": "books/The_Silent_Witness.jfif",
+    "created_at": "2026-08-20T11:31:13.648Z",
+    "updated_at": "2026-10-28T13:02:01.779Z",
+    "genre": [
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 2,
+  "fields": {
+    "title": "Murder at Midnight",
+    "author": "Daniel Brooks",
+    "description": "A murder inside an old mansion brings together a group of strangers, each hiding a secret. A determined detective must uncover the truth before another victim appears.",
+    "price": "449.00",
+    "stock": 13,
+    "image": "books/Murder_at_Midnight.jfif",
+    "created_at": "2026-08-20T11:31:14.122Z",
+    "updated_at": "2026-10-28T13:02:01.777Z",
+    "genre": [
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 3,
+  "fields": {
+    "title": "The Hidden Room",
+    "author": "Emily Carter",
+    "description": "When a young journalist discovers a locked room in an abandoned house, she begins investigating its strange history and uncovers a mystery that connects several missing people.",
+    "price": "349.00",
+    "stock": 28,
+    "image": "books/The_Hidden_Room.jfif",
+    "created_at": "2026-08-20T11:31:15.309Z",
+    "updated_at": "2026-10-28T13:02:01.781Z",
+    "genre": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 4,
+  "fields": {
+    "title": "Shadows on the Lake",
+    "author": "Robert Hayes",
+    "description": "A quiet lakeside town is disturbed by a series of unexplained events. A retired detective returns to solve a case that he thought he had left behind forever.",
+    "price": "499.00",
+    "stock": 16,
+    "image": "books/Shadows_on_the_Lake.jfif",
+    "created_at": "2026-08-20T11:31:15.949Z",
+    "updated_at": "2026-09-05T22:37:50.534Z",
+    "genre": [
+      2
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 5,
+  "fields": {
+    "title": "The Last Summer",
+    "author": "Sarah Mitchell",
+    "description": "A young woman returns to her hometown for one final summer and discovers that old friendships, forgotten memories, and unexpected relationships can change everything.",
+    "price": "299.00",
+    "stock": 39,
+    "image": "books/The_Last_Summer.jfif",
+    "created_at": "2026-08-20T11:31:16.675Z",
+    "updated_at": "2026-09-06T14:37:36.362Z",
+    "genre": [
+      3
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 6,
+  "fields": {
+    "title": "Letters from Home",
+    "author": "Michael Adams",
+    "description": "A collection of heartfelt letters follows the lives of two people separated by distance. Their words reveal love, friendship, hope, and the importance of home.",
+    "price": "329.00",
+    "stock": 35,
+    "image": "books/Letters_from_Home.jfif",
+    "created_at": "2026-08-20T11:31:17.409Z",
+    "updated_at": "2026-08-21T11:48:53.436Z",
+    "genre": [
+      3
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 7,
+  "fields": {
+    "title": "A Journey Between Us",
+    "author": "Rachel Stone",
+    "description": "Two strangers meet during a difficult journey and slowly discover that their different experiences have brought them together for a reason.",
+    "price": "379.00",
+    "stock": 28,
+    "image": "books/A_Journey_Between_Us.jfif",
+    "created_at": "2026-08-20T11:31:18.357Z",
+    "updated_at": "2026-08-21T11:48:22.684Z",
+    "genre": [
+      3
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 8,
+  "fields": {
+    "title": "The Power of Habits",
+    "author": "James Anderson",
+    "description": "This practical guide explores how everyday habits shape our lives and provides simple strategies for creating positive routines and breaking unhealthy patterns.",
+    "price": "399.00",
+    "stock": 49,
+    "image": "books/The_Power_of_Habits.jfif",
+    "created_at": "2026-08-20T11:31:19.222Z",
+    "updated_at": "2026-09-06T20:49:04.426Z",
+    "genre": [
+      4
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 9,
+  "fields": {
+    "title": "Understanding the Mind",
+    "author": "Laura Wilson",
+    "description": "An accessible introduction to human psychology, emotions, decision making, and behavior designed for readers who want to better understand themselves and others.",
+    "price": "429.00",
+    "stock": 32,
+    "image": "books/Understanding_the_Mind.jfif",
+    "created_at": "2026-08-20T11:31:19.796Z",
+    "updated_at": "2026-08-21T11:47:32.179Z",
+    "genre": [
+      4
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 10,
+  "fields": {
+    "title": "The Art of Better Decisions",
+    "author": "Thomas Reed",
+    "description": "Learn how to recognize common thinking mistakes and develop practical methods for making clearer and more effective decisions in everyday life.",
+    "price": "459.00",
+    "stock": 26,
+    "image": "books/The_Art_of_Better_Decisions.jfif",
+    "created_at": "2026-08-20T11:31:19.827Z",
+    "updated_at": "2026-09-06T20:49:04.429Z",
+    "genre": [
+      4
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 11,
+  "fields": {
+    "title": "Beyond the Stars",
+    "author": "Ethan Clarke",
+    "description": "Humanity discovers a distant planet capable of supporting life. A small team of explorers travels across the galaxy and faces challenges that could change the future of civilization.",
+    "price": "499.00",
+    "stock": 20,
+    "image": "books/Beyond_the_Stars.jpeg",
+    "created_at": "2026-08-20T11:31:19.846Z",
+    "updated_at": "2026-10-28T13:02:01.770Z",
+    "genre": [
+      1
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 12,
+  "fields": {
+    "title": "The Last Colony",
+    "author": "Nathan Wright",
+    "description": "The final human colony on Mars loses contact with Earth. A young engineer must uncover what happened before the colony's limited resources disappear.",
+    "price": "479.00",
+    "stock": 16,
+    "image": "books/The_Last_Colony.jpeg",
+    "created_at": "2026-08-20T11:31:19.871Z",
+    "updated_at": "2026-09-06T20:49:04.424Z",
+    "genre": [
+      1
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 13,
+  "fields": {
+    "title": "Time Beyond Tomorrow",
+    "author": "Olivia Grant",
+    "description": "A scientist accidentally creates a device capable of sending memories into the future. What begins as an experiment soon threatens the course of human history.",
+    "price": "529.00",
+    "stock": 16,
+    "image": "books/Time_Beyond_Tomorrow.jpeg",
+    "created_at": "2026-08-20T11:31:19.894Z",
+    "updated_at": "2026-08-20T12:11:59.930Z",
+    "genre": [
+      1,
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 14,
+  "fields": {
+    "title": "The Life of a Visionary",
+    "author": "William Harris",
+    "description": "The inspiring story of a visionary who overcame countless obstacles and transformed a small idea into a movement that influenced generations around the world.",
+    "price": "399.00",
+    "stock": 24,
+    "image": "books/The_Life_of_a_Visionary.jpeg",
+    "created_at": "2026-08-20T11:31:19.915Z",
+    "updated_at": "2026-08-20T12:11:33.676Z",
+    "genre": [
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 15,
+  "fields": {
+    "title": "A Life of Courage",
+    "author": "David Peterson",
+    "description": "An inspiring biography following an individual's journey through hardship, personal sacrifice, and extraordinary achievements that changed the lives of many people.",
+    "price": "449.00",
+    "stock": 20,
+    "image": "books/A_Life_of_Courage.jpeg",
+    "created_at": "2026-08-20T11:31:19.932Z",
+    "updated_at": "2026-10-28T13:02:01.774Z",
+    "genre": [
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 16,
+  "fields": {
+    "title": "The Story of a Leader",
+    "author": "James Collins",
+    "description": "This biography explores the early struggles, important decisions, failures, and achievements of a leader whose ideas influenced society.",
+    "price": "499.00",
+    "stock": 17,
+    "image": "books/The_Story_of_a_Leader.jpeg",
+    "created_at": "2026-08-20T11:31:19.949Z",
+    "updated_at": "2026-08-20T12:11:08.969Z",
+    "genre": [
+      5
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 17,
+  "fields": {
+    "title": "The Kingdom of Dreams",
+    "author": "Emma Richardson",
+    "description": "A young traveler enters a magical kingdom hidden beyond the ordinary world and discovers that an ancient prophecy depends on her courage.",
+    "price": "429.00",
+    "stock": 31,
+    "image": "books/The_Kingdom_of_Dreams.jpeg",
+    "created_at": "2026-08-20T11:31:19.965Z",
+    "updated_at": "2026-08-20T12:10:50.294Z",
+    "genre": [
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 18,
+  "fields": {
+    "title": "The Enchanted Forest",
+    "author": "Lucas Bennett",
+    "description": "Deep inside an enchanted forest, a group of friends discovers magical creatures and an ancient secret that could determine the future of their world.",
+    "price": "379.00",
+    "stock": 26,
+    "image": "books/the_enchanted_forest.jpeg",
+    "created_at": "2026-08-20T11:31:19.995Z",
+    "updated_at": "2026-08-20T12:10:40.646Z",
+    "genre": [
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 19,
+  "fields": {
+    "title": "The Dragon's Legacy",
+    "author": "Christopher Young",
+    "description": "A forgotten kingdom is threatened by an ancient dragon. A young hero discovers a mysterious connection to the creature and must decide the fate of both humans and dragons.",
+    "price": "549.00",
+    "stock": 11,
+    "image": "books/the_dragon_legasy.jpeg",
+    "created_at": "2026-08-20T11:31:20.059Z",
+    "updated_at": "2026-09-05T22:02:54.768Z",
+    "genre": [
+      6
+    ]
+  }
+},
+{
+  "model": "catalog.book",
+  "pk": 20,
+  "fields": {
+    "title": "The Forgotten Kingdom",
+    "author": "Sophia Martin",
+    "description": "A mysterious map leads an adventurer to a forgotten kingdom filled with ancient magic, hidden treasures, and powerful enemies determined to protect its secrets.",
+    "price": "459.00",
+    "stock": 21,
+    "image": "books/the_forgoten_kingdom.jpeg",
+    "created_at": "2026-08-20T11:31:20.080Z",
+    "updated_at": "2026-09-07T18:09:28.490Z",
+    "genre": [
+      2,
+      6
+    ]
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "user": [
+      "rohan@gmail.com"
+    ],
+    "address": 8,
+    "total_amount": "2096.00",
+    "status": "pending",
+    "payment_method": "cod",
+    "payment_status": "pending",
+    "created_at": "2026-09-05T22:02:54.733Z",
+    "updated_at": "2026-09-05T22:02:54.733Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "user": [
+      "rohan@gmail.com"
+    ],
+    "address": 8,
+    "total_amount": "1796.00",
+    "status": "pending",
+    "payment_method": "cod",
+    "payment_status": "pending",
+    "created_at": "2026-09-05T22:11:09.704Z",
+    "updated_at": "2026-09-05T22:11:09.705Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "user": [
+      "rohan@gmail.com"
+    ],
+    "address": 8,
+    "total_amount": "499.00",
+    "status": "pending",
+    "payment_method": "cod",
+    "payment_status": "pending",
+    "created_at": "2026-09-05T22:31:37.460Z",
+    "updated_at": "2026-09-05T22:31:37.461Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 4,
+  "fields": {
+    "user": [
+      "rohan@gmail.com"
+    ],
+    "address": 8,
+    "total_amount": "499.00",
+    "status": "pending",
+    "payment_method": "cod",
+    "payment_status": "pending",
+    "created_at": "2026-09-05T22:37:50.496Z",
+    "updated_at": "2026-09-05T22:37:50.496Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 5,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "address": 7,
+    "total_amount": "1357.00",
+    "status": "delivered",
+    "payment_method": "online",
+    "payment_status": "paid",
+    "created_at": "2026-09-06T12:31:43.936Z",
+    "updated_at": "2026-09-19T21:28:11.748Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 6,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "address": 7,
+    "total_amount": "449.00",
+    "status": "pending",
+    "payment_method": "cod",
+    "payment_status": "pending",
+    "created_at": "2026-09-06T14:07:34.038Z",
+    "updated_at": "2026-09-06T14:07:34.039Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 7,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "address": 7,
+    "total_amount": "449.00",
+    "status": "delivered",
+    "payment_method": "cod",
+    "payment_status": "paid",
+    "created_at": "2026-09-06T14:22:41.362Z",
+    "updated_at": "2026-09-19T21:28:31.251Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 8,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "address": 7,
+    "total_amount": "299.00",
+    "status": "delivered",
+    "payment_method": "online",
+    "payment_status": "paid",
+    "created_at": "2026-09-06T14:37:36.356Z",
+    "updated_at": "2026-09-07T11:47:35.459Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 9,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "address": 7,
+    "total_amount": "349.00",
+    "status": "cancelled",
+    "payment_method": "cod",
+    "payment_status": "refunded",
+    "created_at": "2026-09-06T20:11:01.501Z",
+    "updated_at": "2026-09-19T21:39:06.634Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 10,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "address": 2,
+    "total_amount": "1337.00",
+    "status": "delivered",
+    "payment_method": "cod",
+    "payment_status": "paid",
+    "created_at": "2026-09-06T20:49:04.418Z",
+    "updated_at": "2026-09-19T21:27:57.907Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 11,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "address": 7,
+    "total_amount": "459.00",
+    "status": "cancelled",
+    "payment_method": "online",
+    "payment_status": "refunded",
+    "created_at": "2026-09-07T11:59:19.350Z",
+    "updated_at": "2026-09-19T21:38:29.365Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 12,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "address": 2,
+    "total_amount": "459.00",
+    "status": "delivered",
+    "payment_method": "cod",
+    "payment_status": "paid",
+    "created_at": "2026-09-07T18:09:28.482Z",
+    "updated_at": "2026-09-19T21:28:50.487Z"
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 13,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "address": 2,
+    "total_amount": "3093.00",
+    "status": "cancelled",
+    "payment_method": "online",
+    "payment_status": "pending",
+    "created_at": "2026-10-28T13:02:01.762Z",
+    "updated_at": "2026-10-28T17:21:07.746Z"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "book": 19,
+    "quantity": 3,
+    "price": "549.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 1,
+    "book": 2,
+    "quantity": 1,
+    "price": "449.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 2,
+    "book": 1,
+    "quantity": 2,
+    "price": "399.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 2,
+    "book": 4,
+    "quantity": 2,
+    "price": "499.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 5,
+  "fields": {
+    "order": 3,
+    "book": 4,
+    "quantity": 1,
+    "price": "499.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 6,
+  "fields": {
+    "order": 4,
+    "book": 4,
+    "quantity": 1,
+    "price": "499.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 7,
+  "fields": {
+    "order": 5,
+    "book": 12,
+    "quantity": 2,
+    "price": "479.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 8,
+  "fields": {
+    "order": 5,
+    "book": 1,
+    "quantity": 1,
+    "price": "399.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 9,
+  "fields": {
+    "order": 6,
+    "book": 2,
+    "quantity": 1,
+    "price": "449.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 10,
+  "fields": {
+    "order": 7,
+    "book": 2,
+    "quantity": 1,
+    "price": "449.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 11,
+  "fields": {
+    "order": 8,
+    "book": 5,
+    "quantity": 1,
+    "price": "299.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 12,
+  "fields": {
+    "order": 9,
+    "book": 3,
+    "quantity": 1,
+    "price": "349.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 13,
+  "fields": {
+    "order": 10,
+    "book": 12,
+    "quantity": 1,
+    "price": "479.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 14,
+  "fields": {
+    "order": 10,
+    "book": 8,
+    "quantity": 1,
+    "price": "399.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 15,
+  "fields": {
+    "order": 10,
+    "book": 10,
+    "quantity": 1,
+    "price": "459.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 16,
+  "fields": {
+    "order": 11,
+    "book": 20,
+    "quantity": 1,
+    "price": "459.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 17,
+  "fields": {
+    "order": 12,
+    "book": 20,
+    "quantity": 1,
+    "price": "459.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 18,
+  "fields": {
+    "order": 13,
+    "book": 11,
+    "quantity": 2,
+    "price": "499.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 19,
+  "fields": {
+    "order": 13,
+    "book": 15,
+    "quantity": 1,
+    "price": "449.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 20,
+  "fields": {
+    "order": 13,
+    "book": 2,
+    "quantity": 2,
+    "price": "449.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 21,
+  "fields": {
+    "order": 13,
+    "book": 1,
+    "quantity": 1,
+    "price": "399.00"
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 22,
+  "fields": {
+    "order": 13,
+    "book": 3,
+    "quantity": 1,
+    "price": "349.00"
+  }
+},
+{
+  "model": "orders.shipment",
+  "pk": 1,
+  "fields": {
+    "order": 8,
+    "courier_name": "Fedex",
+    "tracking_number": "DL44729103",
+    "tracking_url": "",
+    "status": "delivered",
+    "estimated_delivery_date": "2026-09-16T19:32:25Z",
+    "shipped_at": "2026-09-15T19:32:50Z",
+    "delivered_at": "2026-09-16T19:33:03Z",
+    "created_at": "2026-09-17T19:33:06.097Z",
+    "updated_at": "2026-09-17T19:33:06.097Z"
+  }
+},
+{
+  "model": "orders.returnrequest",
+  "pk": 3,
+  "fields": {
+    "order": 10,
+    "user": [
+      "staff@gmail.com"
+    ],
+    "reason": "other",
+    "status": "requested",
+    "requested_at": "2026-09-19T21:36:23.522Z",
+    "updated_at": "2026-09-19T21:36:23.522Z",
+    "completed_at": "2026-09-19T21:36:21Z"
+  }
+},
+{
+  "model": "orders.returnrequest",
+  "pk": 4,
+  "fields": {
+    "order": 12,
+    "user": [
+      "staff@gmail.com"
+    ],
+    "reason": "damaged",
+    "status": "approved",
+    "requested_at": "2026-09-28T01:15:53.021Z",
+    "updated_at": "2026-10-28T23:51:28.658Z",
+    "completed_at": null
+  }
+},
+{
+  "model": "orders.returnitem",
+  "pk": 1,
+  "fields": {
+    "return_request": 4,
+    "order_item": 17,
+    "quantity": 1
+  }
+},
+{
+  "model": "orders.shipmentevent",
+  "pk": 1,
+  "fields": {
+    "shipment": 1,
+    "status": "delivered",
+    "location": "Pune",
+    "description": "Delivered",
+    "event_time": "2026-09-17T06:00:00Z",
+    "created_at": "2026-09-17T19:34:41.894Z"
+  }
+},
+{
+  "model": "ai.agent",
+  "pk": 2,
+  "fields": {
+    "name": "Shopping Agent",
+    "agent_type": "shopping",
+    "description": "Helps users search, compare, check stock and get book recommendations.",
+    "model": "gpt-4o-mini",
+    "system_prompt": "You are BookNook's friendly shopping assistant.\r\n\r\nYour job is to help customers discover books, compare books,\r\ncheck availability, and make purchasing decisions.\r\n\r\nGENERAL RULES:\r\n\r\n1. Be friendly, concise, and conversational.\r\n2. Never sound like a database or API response.\r\n3. Use the available tools whenever you need real book information.\r\n4. Never invent book titles, authors, prices, ratings, stock,\r\n   or other product information.\r\n5. When showing multiple books, keep the response easy to scan.\r\n6. Do not unnecessarily repeat information.\r\n7. Always use ₹ for prices.\r\n8. Mention stock only when it is useful to the customer.\r\n9. If the user asks for recommendations, briefly explain why\r\n   the recommended books may suit their request.\r\n10. If there are no matching books, clearly say that no matching\r\n    books were found and suggest an alternative.\r\n\r\nBOOK LIST FORMAT:\r\n\r\nWhen recommending multiple books, use:\r\n\r\n📚 Book Title\r\nBy Author · ₹Price\r\nShort one-line description if available\r\n\r\nDo not create extremely long descriptions.\r\n\r\nCONVERSATION:\r\n\r\n- If the user asks a follow-up question about a book mentioned\r\n  earlier, use the conversation history.\r\n- If the user asks for more details about a specific book,\r\n  use get_book_detail.\r\n- If the user asks whether a book is available, use\r\n  check_book_stock.\r\n- If the user asks to compare books, use compare_books.\r\n\r\nRECOMMENDATIONS:\r\n\r\nWhen recommending books:\r\n- Prefer 3-5 relevant books.\r\n- Consider the user's requested genre, topic, price range,\r\n  and availability.\r\n- If one option is clearly better based on the user's request,\r\n  explain why.\r\n- Do not simply dump the entire database result.\r\n\r\nPURCHASE INTENT:\r\n\r\nIf the user says they want to buy a specific book, provide\r\nits details and availability. Do not claim that an order was\r\nplaced unless an actual order tool is available and successfully\r\nexecuted.",
+    "is_active": true,
+    "created_at": "2026-09-10T00:21:51.634Z",
+    "updated_at": "2026-10-27T20:20:02.156Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 16,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-26T21:01:55.250Z",
+    "updated_at": "2026-10-26T21:01:55.250Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 17,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-26T21:42:03.347Z",
+    "updated_at": "2026-10-26T21:42:03.347Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 18,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-26T21:44:03.766Z",
+    "updated_at": "2026-10-26T21:44:03.766Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 19,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-26T21:45:32.838Z",
+    "updated_at": "2026-10-26T21:45:32.838Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 20,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-27T19:16:56.425Z",
+    "updated_at": "2026-10-27T19:16:56.425Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 21,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-27T19:18:36.014Z",
+    "updated_at": "2026-10-27T19:18:36.014Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 22,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-27T19:19:10.562Z",
+    "updated_at": "2026-10-27T19:19:10.562Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 23,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-27T19:29:39.225Z",
+    "updated_at": "2026-10-27T19:29:39.225Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 24,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-27T20:10:28.241Z",
+    "updated_at": "2026-10-27T20:10:28.241Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 25,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-28T12:58:42.168Z",
+    "updated_at": "2026-10-28T12:58:42.169Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 26,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-28T17:20:59.980Z",
+    "updated_at": "2026-10-28T17:20:59.980Z"
+  }
+},
+{
+  "model": "ai.conversation",
+  "pk": 27,
+  "fields": {
+    "user": [
+      "staff@gmail.com"
+    ],
+    "agent": 2,
+    "title": "",
+    "created_at": "2026-10-28T23:46:17.845Z",
+    "updated_at": "2026-10-28T23:46:17.845Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 220,
+  "fields": {
+    "conversation": 16,
+    "role": "user",
+    "content": "hey can you fetch my cart",
+    "created_at": "2026-10-26T21:01:55.265Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 221,
+  "fields": {
+    "conversation": 16,
+    "role": "assistant",
+    "content": "Your cart contains the following items:\n\n1. **Beyond the Stars** by Ethan Clarke\n   - Price: ₹499\n   - Quantity: 3\n   - Subtotal: ₹1497\n\n2. **A Life of Courage** by David Peterson\n   - Price: ₹449\n   - Quantity: 1\n   - Subtotal: ₹449\n\n3. **Murder at Midnight** by Daniel Brooks\n   - Price: ₹449\n   - Quantity: 2\n   - Subtotal: ₹898\n\n**Total: ₹2844**",
+    "created_at": "2026-10-26T21:02:13.684Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 222,
+  "fields": {
+    "conversation": 16,
+    "role": "user",
+    "content": "also give me 5 books of sifi",
+    "created_at": "2026-10-26T21:03:36.127Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 223,
+  "fields": {
+    "conversation": 16,
+    "role": "assistant",
+    "content": "Here are some sci-fi book recommendations for you:\n\n1. **The Last Colony** by Nathan Wright - Price: ₹479\n2. **Beyond the Stars** by Ethan Clarke - Price: ₹499\n3. **Time Beyond Tomorrow** by Olivia Grant - Price: ₹529\n\nEnjoy your reading!",
+    "created_at": "2026-10-26T21:03:42.449Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 224,
+  "fields": {
+    "conversation": 16,
+    "role": "user",
+    "content": "ok add first one to my cart",
+    "created_at": "2026-10-26T21:04:51.897Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 225,
+  "fields": {
+    "conversation": 16,
+    "role": "assistant",
+    "content": "The book **The Last Colony** has been successfully added to your cart for ₹479. If you need anything else, just let me know!",
+    "created_at": "2026-10-26T21:04:57.538Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 226,
+  "fields": {
+    "conversation": 16,
+    "role": "user",
+    "content": "can you also breccommend some books",
+    "created_at": "2026-10-26T21:06:15.744Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 227,
+  "fields": {
+    "conversation": 16,
+    "role": "assistant",
+    "content": "Could you please specify a genre, topic, or price range for the book recommendations? That way, I can provide you with more tailored suggestions!",
+    "created_at": "2026-10-26T21:06:20.598Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 228,
+  "fields": {
+    "conversation": 16,
+    "role": "user",
+    "content": "give me some mestry books",
+    "created_at": "2026-10-26T21:07:33.844Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 229,
+  "fields": {
+    "conversation": 16,
+    "role": "assistant",
+    "content": "Here are some mystery book recommendations for you:\n\n1. **The Silent Witness** by Alex Morgan - Price: ₹399\n2. **Shadows on the Lake** by Robert Hayes - Price: ₹499\n3. **Murder at Midnight** by Daniel Brooks - Price: ₹449\n4. **The Forgotten Kingdom** by Sophia Martin - Price: ₹459 (also includes fantasy elements)\n5. **The Hidden Room** by Emily Carter - Price: ₹349 (also includes fantasy elements)\n\nHappy reading! If you'd like more information or want to add any of these to your cart, just let me know!",
+    "created_at": "2026-10-26T21:07:41.823Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 230,
+  "fields": {
+    "conversation": 16,
+    "role": "user",
+    "content": "add last one to cart",
+    "created_at": "2026-10-26T21:08:35.539Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 231,
+  "fields": {
+    "conversation": 16,
+    "role": "assistant",
+    "content": "The book **The Hidden Room** by Emily Carter has been successfully added to your cart for ₹349. If you need anything else, just let me know!",
+    "created_at": "2026-10-26T21:08:44.983Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 232,
+  "fields": {
+    "conversation": 16,
+    "role": "user",
+    "content": "now show me my cart",
+    "created_at": "2026-10-26T21:09:17.385Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 233,
+  "fields": {
+    "conversation": 16,
+    "role": "assistant",
+    "content": "Here's what's currently in your cart:\n\n1. **Beyond the Stars** by Ethan Clarke - ₹499 (Quantity: 3) - Subtotal: ₹1497\n2. **A Life of Courage** by David Peterson - ₹449 (Quantity: 1) - Subtotal: ₹449\n3. **Murder at Midnight** by Daniel Brooks - ₹449 (Quantity: 2) - Subtotal: ₹898\n4. **The Silent Witness** by Alex Morgan - ₹399 (Quantity: 1) - Subtotal: ₹399\n5. **The Hidden Room** by Emily Carter - ₹349 (Quantity: 1) - Subtotal: ₹349\n\n**Total: ₹3592**\n\nLet me know if you need any further assistance or if you’d like to proceed to checkout!",
+    "created_at": "2026-10-26T21:09:25.465Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 234,
+  "fields": {
+    "conversation": 16,
+    "role": "user",
+    "content": "can you reduce Beyond the Stars quantity to 1",
+    "created_at": "2026-10-26T21:10:35.983Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 235,
+  "fields": {
+    "conversation": 16,
+    "role": "assistant",
+    "content": "The quantity of **Beyond the Stars** has been successfully updated to 1 in your cart. If you need any more assistance, just let me know!",
+    "created_at": "2026-10-26T21:11:05.159Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 236,
+  "fields": {
+    "conversation": 16,
+    "role": "user",
+    "content": "now show me cart",
+    "created_at": "2026-10-26T21:11:25.998Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 237,
+  "fields": {
+    "conversation": 16,
+    "role": "assistant",
+    "content": "Here's your updated cart:\n\n1. **Beyond the Stars** by Ethan Clarke - ₹499 (Quantity: 1) - Subtotal: ₹499\n2. **A Life of Courage** by David Peterson - ₹449 (Quantity: 1) - Subtotal: ₹449\n3. **Murder at Midnight** by Daniel Brooks - ₹449 (Quantity: 2) - Subtotal: ₹898\n4. **The Silent Witness** by Alex Morgan - ₹399 (Quantity: 1) - Subtotal: ₹399\n5. **The Hidden Room** by Emily Carter - ₹349 (Quantity: 1) - Subtotal: ₹349\n\n**Total: ₹2034**\n\nLet me know if you’d like to proceed to checkout or need any other assistance!",
+    "created_at": "2026-10-26T21:11:28.960Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 238,
+  "fields": {
+    "conversation": 16,
+    "role": "user",
+    "content": "show my orders",
+    "created_at": "2026-10-26T21:19:01.083Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 239,
+  "fields": {
+    "conversation": 16,
+    "role": "assistant",
+    "content": "Here are your recent orders:\n\n1. **Order ID:** 12\n   - **Status:** Delivered\n   - **Payment Status:** Paid\n   - **Payment Method:** COD\n   - **Total Amount:** ₹459.00\n   - **Created At:** September 7, 2026\n\n2. **Order ID:** 11\n   - **Status:** Cancelled\n   - **Payment Status:** Refunded\n   - **Payment Method:** Online\n   - **Total Amount:** ₹459.00\n   - **Created At:** September 7, 2026\n\n3. **Order ID:** 10\n   - **Status:** Delivered\n   - **Payment Status:** Paid\n   - **Payment Method:** COD\n   - **Total Amount:** ₹1337.00\n   - **Created At:** September 6, 2026\n\n4. **Order ID:** 9\n   - **Status:** Cancelled\n   - **Payment Status:** Refunded\n   - **Payment Method:** COD\n   - **Total Amount:** ₹349.00\n   - **Created At:** September 6, 2026\n\n5. **Order ID:** 8\n   - **Status:** Delivered\n   - **Payment Status:** Paid\n   - **Payment Method:** Online\n   - **Total Amount:** ₹299.00\n   - **Created At:** September 6, 2026\n\n6. **Order ID:** 7\n   - **Status:** Delivered\n   - **Payment Status:** Paid\n   - **Payment Method:** COD\n   - **Total Amount:** ₹449.00\n   - **Created At:** September 6, 2026\n\n7. **Order ID:** 6\n   - **Status:** Pending\n   - **Payment Status:** Pending\n   - **Payment Method:** COD\n   - **Total Amount:** ₹449.00\n   - **Created At:** September 6, 2026\n\n8. **Order ID:** 5\n   - **Status:** Delivered\n   - **Payment Status:** Paid\n   - **Payment Method:** Online\n   - **Total Amount:** ₹1357.00\n   - **Created At:** September 6, 2026\n\nIf you need more details about any specific order, just let me know!",
+    "created_at": "2026-10-26T21:19:25.647Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 247,
+  "fields": {
+    "conversation": 23,
+    "role": "user",
+    "content": "Tell me how my last order is doing.",
+    "created_at": "2026-10-27T20:04:41.141Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 248,
+  "fields": {
+    "conversation": 23,
+    "role": "assistant",
+    "content": "You have several delivered orders. Here are the details:\n\n1. **Order ID:** 12 - Amount: $459.00\n2. **Order ID:** 10 - Amount: $1337.00\n3. **Order ID:** 8 - Amount: $299.00\n4. **Order ID:** 7 - Amount: $449.00\n5. **Order ID:** 5 - Amount: $1357.00\n\nPlease provide the Order ID of the order you would like to track.",
+    "created_at": "2026-10-27T20:05:05.315Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 249,
+  "fields": {
+    "conversation": 24,
+    "role": "user",
+    "content": "hi",
+    "created_at": "2026-10-27T20:10:28.260Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 250,
+  "fields": {
+    "conversation": 24,
+    "role": "assistant",
+    "content": "Hello! How can I assist you today?",
+    "created_at": "2026-10-27T20:10:38.902Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 251,
+  "fields": {
+    "conversation": 24,
+    "role": "user",
+    "content": "how is my last order going",
+    "created_at": "2026-10-27T20:11:35.521Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 252,
+  "fields": {
+    "conversation": 24,
+    "role": "assistant",
+    "content": "I can track several of your delivered orders. Here are the details:\n\n1. **Order ID:** 12 - **Total Amount:** 459.00\n2. **Order ID:** 10 - **Total Amount:** 1337.00\n3. **Order ID:** 8 - **Total Amount:** 299.00\n4. **Order ID:** 7 - **Total Amount:** 449.00\n5. **Order ID:** 5 - **Total Amount:** 1357.00\n\nPlease let me know the Order ID you'd like to track further!",
+    "created_at": "2026-10-27T20:11:42.745Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 253,
+  "fields": {
+    "conversation": 24,
+    "role": "user",
+    "content": "the last one",
+    "created_at": "2026-10-27T20:11:59.849Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 254,
+  "fields": {
+    "conversation": 24,
+    "role": "assistant",
+    "content": "I'm sorry, but tracking information is not available for your last order at this time. Please feel free to check back later for updates! If you need assistance with anything else, just let me know.",
+    "created_at": "2026-10-27T20:12:05.741Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 255,
+  "fields": {
+    "conversation": 24,
+    "role": "user",
+    "content": "can you check again",
+    "created_at": "2026-10-27T20:12:41.741Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 256,
+  "fields": {
+    "conversation": 24,
+    "role": "assistant",
+    "content": "I checked again, but unfortunately, tracking information is still not available for your last order. Please feel free to check back later for updates. If there's anything else you need, just let me know!",
+    "created_at": "2026-10-27T20:12:47.410Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 257,
+  "fields": {
+    "conversation": 24,
+    "role": "user",
+    "content": "can you check again",
+    "created_at": "2026-10-27T20:20:27.705Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 258,
+  "fields": {
+    "conversation": 24,
+    "role": "assistant",
+    "content": "I checked again, but the tracking information for your last order is still not available at the moment. Please check back later, or let me know if you need assistance with anything else!",
+    "created_at": "2026-10-27T20:20:37.921Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 259,
+  "fields": {
+    "conversation": 24,
+    "role": "user",
+    "content": "can you track order no 5",
+    "created_at": "2026-10-27T20:30:41.466Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 260,
+  "fields": {
+    "conversation": 24,
+    "role": "assistant",
+    "content": "I tracked order number 5, but unfortunately, the tracking information is still not available at the moment. Please check back later. If you have any other questions or need assistance, feel free to ask!",
+    "created_at": "2026-10-27T20:30:54.299Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 261,
+  "fields": {
+    "conversation": 25,
+    "role": "user",
+    "content": "Find a sifi book under ₹500, add it to my cart, and tell me how my last order is doing.",
+    "created_at": "2026-10-28T12:58:42.199Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 262,
+  "fields": {
+    "conversation": 25,
+    "role": "assistant",
+    "content": "I've successfully added **\"Beyond the Stars\"** by Ethan Clarke to your cart! \n\nRegarding your last order (Order ID: 12), it has been delivered successfully. Here are the details:\n- **Status:** Delivered\n- **Payment Status:** Paid (Cash on Delivery)\n- **Total Amount:** ₹459.00\n- **Delivery Address:** Rohan Ekke - Pune\n- **Items Ordered:** \n  - **Book Title:** The Forgotten Kingdom\n  - **Quantity:** 1\n  - **Price:** ₹459.00\n\nIf there's anything else you need, just let me know!",
+    "created_at": "2026-10-28T12:59:23.718Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 263,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "cancle my last order",
+    "created_at": "2026-10-28T17:21:00.017Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 264,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "Your order has been successfully canceled. If you need any further assistance, feel free to ask!",
+    "created_at": "2026-10-28T17:21:10.017Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 265,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "show order detais",
+    "created_at": "2026-10-28T17:21:29.242Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 266,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "Here are the details for your order (Order ID: 12):\n\n- **Status:** Delivered\n- **Payment Status:** Paid\n- **Payment Method:** Cash on Delivery (COD)\n- **Total Amount:** $459.00\n- **Created At:** September 7, 2026\n- **Updated At:** September 19, 2026\n- **Delivery Address:** Rohan Ekke - Pune\n\n**Items in the Order:**\n1. **Book Title:** The Forgotten Kingdom\n   - **Quantity:** 1\n   - **Price:** $459.00\n   - **Subtotal:** $459.00\n\nIf you need any further assistance, feel free to ask!",
+    "created_at": "2026-10-28T17:21:39.761Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 267,
+  "fields": {
+    "conversation": 26,
+    "role": "user",
+    "content": "show me all orders",
+    "created_at": "2026-10-28T17:22:59.846Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 268,
+  "fields": {
+    "conversation": 26,
+    "role": "assistant",
+    "content": "Here are your recent orders:\n\n1. **Order ID:** 13\n   - **Status:** Cancelled\n   - **Payment Status:** Pending\n   - **Payment Method:** Online\n   - **Total Amount:** $3093.00\n   - **Created At:** October 28, 2026\n\n2. **Order ID:** 12\n   - **Status:** Delivered\n   - **Payment Status:** Paid\n   - **Payment Method:** COD\n   - **Total Amount:** $459.00\n   - **Created At:** September 7, 2026\n\n3. **Order ID:** 11\n   - **Status:** Cancelled\n   - **Payment Status:** Refunded\n   - **Payment Method:** Online\n   - **Total Amount:** $459.00\n   - **Created At:** September 7, 2026\n\n4. **Order ID:** 10\n   - **Status:** Delivered\n   - **Payment Status:** Paid\n   - **Payment Method:** COD\n   - **Total Amount:** $1337.00\n   - **Created At:** September 6, 2026\n\n5. **Order ID:** 9\n   - **Status:** Cancelled\n   - **Payment Status:** Refunded\n   - **Payment Method:** COD\n   - **Total Amount:** $349.00\n   - **Created At:** September 6, 2026\n\n6. **Order ID:** 8\n   - **Status:** Delivered\n   - **Payment Status:** Paid\n   - **Payment Method:** Online\n   - **Total Amount:** $299.00\n   - **Created At:** September 6, 2026\n\n7. **Order ID:** 7\n   - **Status:** Delivered\n   - **Payment Status:** Paid\n   - **Payment Method:** COD\n   - **Total Amount:** $449.00\n   - **Created At:** September 6, 2026\n\n8. **Order ID:** 6\n   - **Status:** Pending\n   - **Payment Status:** Pending\n   - **Payment Method:** COD\n   - **Total Amount:** $449.00\n   - **Created At:** September 6, 2026\n\n9. **Order ID:** 5\n   - **Status:** Delivered\n   - **Payment Status:** Paid\n   - **Payment Method:** Online\n   - **Total Amount:** $1357.00\n   - **Created At:** September 6, 2026\n\nIf you need more details about any specific order, feel free to ask!",
+    "created_at": "2026-10-28T17:23:14.493Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 269,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "can you tell me details of my last order",
+    "created_at": "2026-10-28T23:46:17.896Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 270,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "Your last order (Order ID: 12) details are as follows:\n\n- **Status:** Delivered\n- **Payment Status:** Paid\n- **Payment Method:** Cash on Delivery (COD)\n- **Total Amount:** $459.00\n- **Order Date:** September 7, 2026\n- **Delivery Address:** Rohan Ekke - Pune\n\n**Items in the Order:**\n1. **Book Title:** The Forgotten Kingdom  \n   - **Quantity:** 1  \n   - **Price:** $459.00  \n\nIf you need further assistance, feel free to ask!",
+    "created_at": "2026-10-28T23:46:32.228Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 271,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "no it was order 13",
+    "created_at": "2026-10-28T23:47:13.785Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 272,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "Here are the details for your order (ID: 13):\n\n- **Status:** Cancelled\n- **Payment Status:** Pending\n- **Payment Method:** Online\n- **Total Amount:** ₹3093.00\n- **Created At:** October 28, 2026\n- **Updated At:** October 28, 2026\n- **Delivery Address:** Rohan Ekke - Pune\n\n**Items in the Order:**\n1. **Beyond the Stars**  \n   - Quantity: 2  \n   - Price: ₹499.00 each  \n   - Subtotal: ₹998.00  \n2. **A Life of Courage**  \n   - Quantity: 1  \n   - Price: ₹449.00  \n   - Subtotal: ₹449.00  \n3. **Murder at Midnight**  \n   - Quantity: 2  \n   - Price: ₹449.00 each  \n   - Subtotal: ₹898.00  \n4. **The Silent Witness**  \n   - Quantity: 1  \n   - Price: ₹399.00  \n   - Subtotal: ₹399.00  \n5. **The Hidden Room**  \n   - Quantity: 1  \n   - Price: ₹349.00  \n   - Subtotal: ₹349.00  \n\nIf you need further assistance, feel free to ask!",
+    "created_at": "2026-10-28T23:47:24.860Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 273,
+  "fields": {
+    "conversation": 27,
+    "role": "user",
+    "content": "i requested for for return of my last delivered order what happen to that",
+    "created_at": "2026-10-28T23:52:17.797Z"
+  }
+},
+{
+  "model": "ai.message",
+  "pk": 274,
+  "fields": {
+    "conversation": 27,
+    "role": "assistant",
+    "content": "Your order (ID: 12) has two return requests:\n\n1. **Return ID:** 4\n   - **Status:** Approved\n   - **Reason:** Damaged\n   - **Requested At:** September 28, 2026\n   - **Items:** 1 copy of \"The Forgotten Kingdom\"\n   - **Completed At:** Not yet completed\n\n2. **Return ID:** 2\n   - **Status:** Approved\n   - **Reason:** Defective\n   - **Requested At:** September 19, 2026\n   - **Items:** No items returned\n   - **Completed At:** September 19, 2026\n\nIf you need further assistance with these returns, feel free to ask!",
+    "created_at": "2026-10-28T23:52:26.321Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 509,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_start",
+    "message": "Shopping agent started for user 1",
+    "created_at": "2026-10-26T21:02:07.774Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 510,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool: get_cart\nArguments: {}",
+    "created_at": "2026-10-26T21:02:09.326Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 511,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool: get_cart\nResult: {\"success\": true, \"count\": 3, \"items\": [{\"book_id\": 11, \"title\": \"Beyond the Stars\", \"author\": \"Ethan Clarke\", \"price\": 499.0, \"quantity\": 3, \"subtotal\": 1497.0}, {\"book_id\": 15, \"title\": \"A Life of Courage\", \"author\": \"David Peterson\", \"price\": 449.0, \"quantity\": 1, \"subtotal\": 449.0}, {\"book_id\": 2, \"title\": \"Murder at Midnight\", \"author\": \"Daniel Brooks\", \"price\": 449.0, \"quantity\": 2, \"subtotal\": 898.0}], \"total\": 2844.0}",
+    "created_at": "2026-10-26T21:02:09.345Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 512,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_end",
+    "message": "Shopping agent completed successfully.",
+    "created_at": "2026-10-26T21:02:11.541Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 513,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_start",
+    "message": "Shopping agent started for user 1",
+    "created_at": "2026-10-26T21:03:37.846Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 514,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool: get_recommendations\nArguments: {\"genre\":\"sci-fi\",\"limit\":5}",
+    "created_at": "2026-10-26T21:03:39.115Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 515,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool: get_recommendations\nResult: {\"success\": true, \"recommendations\": [{\"book_id\": 12, \"title\": \"The Last Colony\", \"author\": \"Nathan Wright\", \"genres\": [\"Sci-Fi\"], \"price\": \"479.00\", \"stock\": 16}, {\"book_id\": 11, \"title\": \"Beyond the Stars\", \"author\": \"Ethan Clarke\", \"genres\": [\"Sci-Fi\"], \"price\": \"499.00\", \"stock\": 22}, {\"book_id\": 13, \"title\": \"Time Beyond Tomorrow\", \"author\": \"Olivia Grant\", \"genres\": [\"Sci-Fi\", \"Fantasy\"], \"price\": \"529.00\", \"stock\": 16}], \"count\": 3}",
+    "created_at": "2026-10-26T21:03:39.136Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 516,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_end",
+    "message": "Shopping agent completed successfully.",
+    "created_at": "2026-10-26T21:03:40.667Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 517,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_start",
+    "message": "Shopping agent started for user 1",
+    "created_at": "2026-10-26T21:04:53.682Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 518,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool: add_to_cart\nArguments: {\"book_id\":1,\"quantity\":1}",
+    "created_at": "2026-10-26T21:04:54.873Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 519,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool: add_to_cart\nResult: {\"success\": true, \"message\": \"The Silent Witness added to your cart.\", \"item\": {\"book_id\": 1, \"title\": \"The Silent Witness\", \"price\": 399.0, \"quantity\": 1, \"subtotal\": 399.0}}",
+    "created_at": "2026-10-26T21:04:54.895Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 520,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_end",
+    "message": "Shopping agent completed successfully.",
+    "created_at": "2026-10-26T21:04:56.014Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 521,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_start",
+    "message": "Shopping agent started for user 1",
+    "created_at": "2026-10-26T21:06:17.487Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 522,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_end",
+    "message": "Shopping agent completed successfully.",
+    "created_at": "2026-10-26T21:06:19.107Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 523,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_start",
+    "message": "Shopping agent started for user 1",
+    "created_at": "2026-10-26T21:07:35.561Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 524,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool: get_recommendations\nArguments: {\"genre\":\"mystery\",\"limit\":5}",
+    "created_at": "2026-10-26T21:07:37.146Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 525,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool: get_recommendations\nResult: {\"success\": true, \"recommendations\": [{\"book_id\": 1, \"title\": \"The Silent Witness\", \"author\": \"Alex Morgan\", \"genres\": [\"Mystery\"], \"price\": \"399.00\", \"stock\": 22}, {\"book_id\": 4, \"title\": \"Shadows on the Lake\", \"author\": \"Robert Hayes\", \"genres\": [\"Mystery\"], \"price\": \"499.00\", \"stock\": 16}, {\"book_id\": 2, \"title\": \"Murder at Midnight\", \"author\": \"Daniel Brooks\", \"genres\": [\"Mystery\"], \"price\": \"449.00\", \"stock\": 15}, {\"book_id\": 20, \"title\": \"The Forgotten Kingdom\", \"author\": \"Sophia Martin\", \"genres\": [\"Mystery\", \"Fantasy\"], \"price\": \"459.00\", \"stock\": 21}, {\"book_id\": 3, \"title\": \"The Hidden Room\", \"author\": \"Emily Carter\", \"genres\": [\"Mystery\", \"Fantasy\"], \"price\": \"349.00\", \"stock\": 29}], \"count\": 5}",
+    "created_at": "2026-10-26T21:07:37.171Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 526,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_end",
+    "message": "Shopping agent completed successfully.",
+    "created_at": "2026-10-26T21:07:39.309Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 527,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_start",
+    "message": "Shopping agent started for user 1",
+    "created_at": "2026-10-26T21:08:37.583Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 528,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool: add_to_cart\nArguments: {\"book_id\":0,\"quantity\":1}",
+    "created_at": "2026-10-26T21:08:39.243Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 529,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool: add_to_cart\nResult: {\"success\": false, \"message\": \"Book not found\"}",
+    "created_at": "2026-10-26T21:08:39.254Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 530,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool: search_book\nArguments: {\"query\":\"The Hidden Room\"}",
+    "created_at": "2026-10-26T21:08:40.444Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 531,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool: search_book\nResult: {\"success\": true, \"count\": 1, \"books\": [{\"id\": 3, \"title\": \"The Hidden Room\", \"author\": \"Emily Carter\", \"category\": [\"Mystery\", \"Fantasy\"], \"price\": 349.0, \"stock\": 29}]}",
+    "created_at": "2026-10-26T21:08:40.456Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 532,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool: add_to_cart\nArguments: {\"book_id\":3,\"quantity\":1}",
+    "created_at": "2026-10-26T21:08:41.904Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 533,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool: add_to_cart\nResult: {\"success\": true, \"message\": \"The Hidden Room added to your cart.\", \"item\": {\"book_id\": 3, \"title\": \"The Hidden Room\", \"price\": 349.0, \"quantity\": 1, \"subtotal\": 349.0}}",
+    "created_at": "2026-10-26T21:08:41.953Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 534,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_end",
+    "message": "Shopping agent completed successfully.",
+    "created_at": "2026-10-26T21:08:43.185Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 535,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_start",
+    "message": "Shopping agent started for user 1",
+    "created_at": "2026-10-26T21:09:19.063Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 536,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool: get_cart\nArguments: {}",
+    "created_at": "2026-10-26T21:09:20.223Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 537,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool: get_cart\nResult: {\"success\": true, \"count\": 5, \"items\": [{\"book_id\": 11, \"title\": \"Beyond the Stars\", \"author\": \"Ethan Clarke\", \"price\": 499.0, \"quantity\": 3, \"subtotal\": 1497.0}, {\"book_id\": 15, \"title\": \"A Life of Courage\", \"author\": \"David Peterson\", \"price\": 449.0, \"quantity\": 1, \"subtotal\": 449.0}, {\"book_id\": 2, \"title\": \"Murder at Midnight\", \"author\": \"Daniel Brooks\", \"price\": 449.0, \"quantity\": 2, \"subtotal\": 898.0}, {\"book_id\": 1, \"title\": \"The Silent Witness\", \"author\": \"Alex Morgan\", \"price\": 399.0, \"quantity\": 1, \"subtotal\": 399.0}, {\"book_id\": 3, \"title\": \"The Hidden Room\", \"author\": \"Emily Carter\", \"price\": 349.0, \"quantity\": 1, \"subtotal\": 349.0}], \"total\": 3592.0}",
+    "created_at": "2026-10-26T21:09:20.368Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 538,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_end",
+    "message": "Shopping agent completed successfully.",
+    "created_at": "2026-10-26T21:09:22.845Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 539,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_start",
+    "message": "Shopping agent started for user 1",
+    "created_at": "2026-10-26T21:10:41.862Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 540,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool: get_cart\nArguments: {}",
+    "created_at": "2026-10-26T21:10:46.491Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 541,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool: get_cart\nResult: {\"success\": true, \"count\": 5, \"items\": [{\"book_id\": 11, \"title\": \"Beyond the Stars\", \"author\": \"Ethan Clarke\", \"price\": 499.0, \"quantity\": 3, \"subtotal\": 1497.0}, {\"book_id\": 15, \"title\": \"A Life of Courage\", \"author\": \"David Peterson\", \"price\": 449.0, \"quantity\": 1, \"subtotal\": 449.0}, {\"book_id\": 2, \"title\": \"Murder at Midnight\", \"author\": \"Daniel Brooks\", \"price\": 449.0, \"quantity\": 2, \"subtotal\": 898.0}, {\"book_id\": 1, \"title\": \"The Silent Witness\", \"author\": \"Alex Morgan\", \"price\": 399.0, \"quantity\": 1, \"subtotal\": 399.0}, {\"book_id\": 3, \"title\": \"The Hidden Room\", \"author\": \"Emily Carter\", \"price\": 349.0, \"quantity\": 1, \"subtotal\": 349.0}], \"total\": 3592.0}",
+    "created_at": "2026-10-26T21:10:50.244Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 542,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool: update_cart_quantity\nArguments: {\"book_id\":11,\"quantity\":1}",
+    "created_at": "2026-10-26T21:10:54.895Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 543,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool: update_cart_quantity\nResult: {\"success\": true, \"message\": \"Cart updated, Beyond the Stars quantity is now 1.\", \"item\": {\"book_id\": 11, \"title\": \"Beyond the Stars\", \"price\": 499.0, \"quantity\": 1, \"subtotal\": 499.0}}",
+    "created_at": "2026-10-26T21:10:59.688Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 544,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_end",
+    "message": "Shopping agent completed successfully.",
+    "created_at": "2026-10-26T21:11:03.496Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 545,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-26T21:19:11.142Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 546,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_user_orders\nArguments : {}",
+    "created_at": "2026-10-26T21:19:12.246Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 547,
+  "fields": {
+    "conversation": 16,
+    "event_type": "tool_result",
+    "message": "Tool : get_user_orders\nResult : {\"success\": true, \"count\": 8, \"orders\": [{\"order_id\": 12, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\"}, {\"order_id\": 11, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"online\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T11:59:19.350564+00:00\"}, {\"order_id\": 10, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"1337.00\", \"created_at\": \"2026-09-06T20:49:04.418596+00:00\"}, {\"order_id\": 9, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"cod\", \"total_amount\": \"349.00\", \"created_at\": \"2026-09-06T20:11:01.501202+00:00\"}, {\"order_id\": 8, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"299.00\", \"created_at\": \"2026-09-06T14:37:36.356692+00:00\"}, {\"order_id\": 7, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:22:41.362973+00:00\"}, {\"order_id\": 6, \"status\": \"pending\", \"patment_status\": \"pending\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:07:34.038960+00:00\"}, {\"order_id\": 5, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"1357.00\", \"created_at\": \"2026-09-06T12:31:43.936898+00:00\"}]}",
+    "created_at": "2026-10-26T21:19:12.269Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 548,
+  "fields": {
+    "conversation": 16,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-26T21:19:19.569Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 549,
+  "fields": {
+    "conversation": 23,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-27T20:04:58.149Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 550,
+  "fields": {
+    "conversation": 23,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_user_orders\nArguments : {}",
+    "created_at": "2026-10-27T20:04:59.947Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 551,
+  "fields": {
+    "conversation": 23,
+    "event_type": "tool_result",
+    "message": "Tool : get_user_orders\nResult : {\"success\": true, \"count\": 8, \"orders\": [{\"order_id\": 12, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\"}, {\"order_id\": 11, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"online\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T11:59:19.350564+00:00\"}, {\"order_id\": 10, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"1337.00\", \"created_at\": \"2026-09-06T20:49:04.418596+00:00\"}, {\"order_id\": 9, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"cod\", \"total_amount\": \"349.00\", \"created_at\": \"2026-09-06T20:11:01.501202+00:00\"}, {\"order_id\": 8, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"299.00\", \"created_at\": \"2026-09-06T14:37:36.356692+00:00\"}, {\"order_id\": 7, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:22:41.362973+00:00\"}, {\"order_id\": 6, \"status\": \"pending\", \"patment_status\": \"pending\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:07:34.038960+00:00\"}, {\"order_id\": 5, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"1357.00\", \"created_at\": \"2026-09-06T12:31:43.936898+00:00\"}]}",
+    "created_at": "2026-10-27T20:04:59.967Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 552,
+  "fields": {
+    "conversation": 23,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-27T20:05:03.085Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 553,
+  "fields": {
+    "conversation": 24,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-27T20:11:36.963Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 554,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_user_orders\nArguments : {}",
+    "created_at": "2026-10-27T20:11:38.463Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 555,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "Tool : get_user_orders\nResult : {\"success\": true, \"count\": 8, \"orders\": [{\"order_id\": 12, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\"}, {\"order_id\": 11, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"online\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T11:59:19.350564+00:00\"}, {\"order_id\": 10, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"1337.00\", \"created_at\": \"2026-09-06T20:49:04.418596+00:00\"}, {\"order_id\": 9, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"cod\", \"total_amount\": \"349.00\", \"created_at\": \"2026-09-06T20:11:01.501202+00:00\"}, {\"order_id\": 8, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"299.00\", \"created_at\": \"2026-09-06T14:37:36.356692+00:00\"}, {\"order_id\": 7, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:22:41.362973+00:00\"}, {\"order_id\": 6, \"status\": \"pending\", \"patment_status\": \"pending\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:07:34.038960+00:00\"}, {\"order_id\": 5, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"1357.00\", \"created_at\": \"2026-09-06T12:31:43.936898+00:00\"}]}",
+    "created_at": "2026-10-27T20:11:38.504Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 556,
+  "fields": {
+    "conversation": 24,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-27T20:11:40.969Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 557,
+  "fields": {
+    "conversation": 24,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-27T20:12:01.583Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 558,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_tracking_status\nArguments : {\"order_id\":12}",
+    "created_at": "2026-10-27T20:12:02.896Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 559,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "Tool : get_tracking_status\nResult : {\"success\": false, \"message\": \"Tracking information is not available for this order yet\"}",
+    "created_at": "2026-10-27T20:12:02.908Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 560,
+  "fields": {
+    "conversation": 24,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-27T20:12:04.219Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 561,
+  "fields": {
+    "conversation": 24,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-27T20:12:43.412Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 562,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_tracking_status\nArguments : {\"order_id\":5}",
+    "created_at": "2026-10-27T20:12:44.869Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 563,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "Tool : get_tracking_status\nResult : {\"success\": false, \"message\": \"Tracking information is not available for this order yet\"}",
+    "created_at": "2026-10-27T20:12:44.880Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 564,
+  "fields": {
+    "conversation": 24,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-27T20:12:46.108Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 565,
+  "fields": {
+    "conversation": 24,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-27T20:20:29.731Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 566,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_tracking_status\nArguments : {\"order_id\":5}",
+    "created_at": "2026-10-27T20:20:31.638Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 567,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "Tool : get_tracking_status\nResult : {\"success\": false, \"message\": \"Tracking information is not available for this order yet\"}",
+    "created_at": "2026-10-27T20:20:35.041Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 568,
+  "fields": {
+    "conversation": 24,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-27T20:20:36.295Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 569,
+  "fields": {
+    "conversation": 24,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-27T20:30:44.203Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 570,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_tracking_status\nArguments : {\"order_id\":5}",
+    "created_at": "2026-10-27T20:30:50.965Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 571,
+  "fields": {
+    "conversation": 24,
+    "event_type": "tool_result",
+    "message": "Tool : get_tracking_status\nResult : {\"success\": false, \"message\": \"Tracking information is not available for this order yet\"}",
+    "created_at": "2026-10-27T20:30:50.980Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 572,
+  "fields": {
+    "conversation": 24,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-27T20:30:52.733Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 573,
+  "fields": {
+    "conversation": 25,
+    "event_type": "agent_start",
+    "message": "Shopping agent started for user 1",
+    "created_at": "2026-10-28T12:58:55.686Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 574,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool: search_book\nArguments: {\"category\":\"Sci-Fi\",\"max_price\":500}",
+    "created_at": "2026-10-28T12:58:59.939Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 575,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "Tool: search_book\nResult: {\"success\": true, \"count\": 2, \"books\": [{\"id\": 11, \"title\": \"Beyond the Stars\", \"author\": \"Ethan Clarke\", \"category\": [\"Sci-Fi\"], \"price\": 499.0, \"stock\": 22}, {\"id\": 12, \"title\": \"The Last Colony\", \"author\": \"Nathan Wright\", \"category\": [\"Sci-Fi\"], \"price\": 479.0, \"stock\": 16}]}",
+    "created_at": "2026-10-28T12:58:59.957Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 576,
+  "fields": {
+    "conversation": 25,
+    "event_type": "agent_end",
+    "message": "Shopping agent completed successfully.",
+    "created_at": "2026-10-28T12:59:02.072Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 577,
+  "fields": {
+    "conversation": 25,
+    "event_type": "agent_start",
+    "message": "Shopping agent started for user 1",
+    "created_at": "2026-10-28T12:59:05.135Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 578,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool: search_book\nArguments: {\"query\":\"Beyond the Stars\"}",
+    "created_at": "2026-10-28T12:59:07.096Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 579,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "Tool: search_book\nResult: {\"success\": true, \"count\": 1, \"books\": [{\"id\": 11, \"title\": \"Beyond the Stars\", \"author\": \"Ethan Clarke\", \"category\": [\"Sci-Fi\"], \"price\": 499.0, \"stock\": 22}]}",
+    "created_at": "2026-10-28T12:59:07.109Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 580,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool: add_to_cart\nArguments: {\"book_id\":11,\"quantity\":1}",
+    "created_at": "2026-10-28T12:59:08.465Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 581,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "Tool: add_to_cart\nResult: {\"success\": true, \"message\": \"Beyond the Stars added to your cart.\", \"item\": {\"book_id\": 11, \"title\": \"Beyond the Stars\", \"price\": 499.0, \"quantity\": 2, \"subtotal\": 998.0}}",
+    "created_at": "2026-10-28T12:59:08.492Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 582,
+  "fields": {
+    "conversation": 25,
+    "event_type": "agent_end",
+    "message": "Shopping agent completed successfully.",
+    "created_at": "2026-10-28T12:59:11.065Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 583,
+  "fields": {
+    "conversation": 25,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-28T12:59:12.798Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 584,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_user_orders\nArguments : {}",
+    "created_at": "2026-10-28T12:59:15.902Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 585,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "Tool : get_user_orders\nResult : {\"success\": true, \"count\": 8, \"orders\": [{\"order_id\": 12, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\"}, {\"order_id\": 11, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"online\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T11:59:19.350564+00:00\"}, {\"order_id\": 10, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"1337.00\", \"created_at\": \"2026-09-06T20:49:04.418596+00:00\"}, {\"order_id\": 9, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"cod\", \"total_amount\": \"349.00\", \"created_at\": \"2026-09-06T20:11:01.501202+00:00\"}, {\"order_id\": 8, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"299.00\", \"created_at\": \"2026-09-06T14:37:36.356692+00:00\"}, {\"order_id\": 7, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:22:41.362973+00:00\"}, {\"order_id\": 6, \"status\": \"pending\", \"patment_status\": \"pending\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:07:34.038960+00:00\"}, {\"order_id\": 5, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"1357.00\", \"created_at\": \"2026-09-06T12:31:43.936898+00:00\"}]}",
+    "created_at": "2026-10-28T12:59:16.034Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 586,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_order_details\nArguments : {\"order_id\":12}",
+    "created_at": "2026-10-28T12:59:17.358Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 587,
+  "fields": {
+    "conversation": 25,
+    "event_type": "tool_result",
+    "message": "Tool : get_order_details\nResult : {\"success\": true, \"order\": {\"order_id\": 12, \"status\": \"delivered\", \"payment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\", \"updated_at\": \"2026-09-19T21:28:50.487762+00:00\", \"address\": {\"id\": 2, \"name\": \"\", \"address_line\": \"Rohan Ekke - pune\"}, \"items\": [{\"order_item_id\": 17, \"book_id\": 20, \"book_title\": \"The Forgotten Kingdom\", \"quantity\": 1, \"price\": \"459.00\", \"subtotal\": \"459.00\"}]}}",
+    "created_at": "2026-10-28T12:59:17.470Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 588,
+  "fields": {
+    "conversation": 25,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-28T12:59:20.106Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 589,
+  "fields": {
+    "conversation": 26,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-28T17:21:01.920Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 590,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_user_orders\nArguments : {}",
+    "created_at": "2026-10-28T17:21:03.385Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 591,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "Tool : get_user_orders\nResult : {\"success\": true, \"count\": 9, \"orders\": [{\"order_id\": 13, \"status\": \"pending\", \"patment_status\": \"pending\", \"payment_method\": \"online\", \"total_amount\": \"3093.00\", \"created_at\": \"2026-10-28T13:02:01.762103+00:00\"}, {\"order_id\": 12, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\"}, {\"order_id\": 11, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"online\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T11:59:19.350564+00:00\"}, {\"order_id\": 10, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"1337.00\", \"created_at\": \"2026-09-06T20:49:04.418596+00:00\"}, {\"order_id\": 9, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"cod\", \"total_amount\": \"349.00\", \"created_at\": \"2026-09-06T20:11:01.501202+00:00\"}, {\"order_id\": 8, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"299.00\", \"created_at\": \"2026-09-06T14:37:36.356692+00:00\"}, {\"order_id\": 7, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:22:41.362973+00:00\"}, {\"order_id\": 6, \"status\": \"pending\", \"patment_status\": \"pending\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:07:34.038960+00:00\"}, {\"order_id\": 5, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"1357.00\", \"created_at\": \"2026-09-06T12:31:43.936898+00:00\"}]}",
+    "created_at": "2026-10-28T17:21:03.421Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 592,
+  "fields": {
+    "conversation": 26,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-28T17:21:04.807Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 593,
+  "fields": {
+    "conversation": 26,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-28T17:21:06.199Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 594,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool : cancel_order\nArguments : {\"order_id\":13}",
+    "created_at": "2026-10-28T17:21:07.730Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 595,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "Tool : cancel_order\nResult : {\"success\": true, \"message\": \"Order cancelled successfully.\", \"order_id\": 13, \"status\": \"cancelled\"}",
+    "created_at": "2026-10-28T17:21:07.755Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 596,
+  "fields": {
+    "conversation": 26,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-28T17:21:08.916Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 597,
+  "fields": {
+    "conversation": 26,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-28T17:21:31.179Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 598,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_user_orders\nArguments : {}",
+    "created_at": "2026-10-28T17:21:32.664Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 599,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "Tool : get_user_orders\nResult : {\"success\": true, \"count\": 9, \"orders\": [{\"order_id\": 13, \"status\": \"cancelled\", \"patment_status\": \"pending\", \"payment_method\": \"online\", \"total_amount\": \"3093.00\", \"created_at\": \"2026-10-28T13:02:01.762103+00:00\"}, {\"order_id\": 12, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\"}, {\"order_id\": 11, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"online\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T11:59:19.350564+00:00\"}, {\"order_id\": 10, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"1337.00\", \"created_at\": \"2026-09-06T20:49:04.418596+00:00\"}, {\"order_id\": 9, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"cod\", \"total_amount\": \"349.00\", \"created_at\": \"2026-09-06T20:11:01.501202+00:00\"}, {\"order_id\": 8, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"299.00\", \"created_at\": \"2026-09-06T14:37:36.356692+00:00\"}, {\"order_id\": 7, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:22:41.362973+00:00\"}, {\"order_id\": 6, \"status\": \"pending\", \"patment_status\": \"pending\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:07:34.038960+00:00\"}, {\"order_id\": 5, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"1357.00\", \"created_at\": \"2026-09-06T12:31:43.936898+00:00\"}]}",
+    "created_at": "2026-10-28T17:21:32.774Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 600,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_order_details\nArguments : {\"order_id\":12}",
+    "created_at": "2026-10-28T17:21:34.280Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 601,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "Tool : get_order_details\nResult : {\"success\": true, \"order\": {\"order_id\": 12, \"status\": \"delivered\", \"payment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\", \"updated_at\": \"2026-09-19T21:28:50.487762+00:00\", \"address\": {\"id\": 2, \"name\": \"\", \"address_line\": \"Rohan Ekke - pune\"}, \"items\": [{\"order_item_id\": 17, \"book_id\": 20, \"book_title\": \"The Forgotten Kingdom\", \"quantity\": 1, \"price\": \"459.00\", \"subtotal\": \"459.00\"}]}}",
+    "created_at": "2026-10-28T17:21:34.476Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 602,
+  "fields": {
+    "conversation": 26,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-28T17:21:37.054Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 603,
+  "fields": {
+    "conversation": 26,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-28T17:23:01.311Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 604,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_user_orders\nArguments : {}",
+    "created_at": "2026-10-28T17:23:02.774Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 605,
+  "fields": {
+    "conversation": 26,
+    "event_type": "tool_result",
+    "message": "Tool : get_user_orders\nResult : {\"success\": true, \"count\": 9, \"orders\": [{\"order_id\": 13, \"status\": \"cancelled\", \"patment_status\": \"pending\", \"payment_method\": \"online\", \"total_amount\": \"3093.00\", \"created_at\": \"2026-10-28T13:02:01.762103+00:00\"}, {\"order_id\": 12, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\"}, {\"order_id\": 11, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"online\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T11:59:19.350564+00:00\"}, {\"order_id\": 10, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"1337.00\", \"created_at\": \"2026-09-06T20:49:04.418596+00:00\"}, {\"order_id\": 9, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"cod\", \"total_amount\": \"349.00\", \"created_at\": \"2026-09-06T20:11:01.501202+00:00\"}, {\"order_id\": 8, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"299.00\", \"created_at\": \"2026-09-06T14:37:36.356692+00:00\"}, {\"order_id\": 7, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:22:41.362973+00:00\"}, {\"order_id\": 6, \"status\": \"pending\", \"patment_status\": \"pending\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:07:34.038960+00:00\"}, {\"order_id\": 5, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"1357.00\", \"created_at\": \"2026-09-06T12:31:43.936898+00:00\"}]}",
+    "created_at": "2026-10-28T17:23:02.794Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 606,
+  "fields": {
+    "conversation": 26,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-28T17:23:08.328Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 607,
+  "fields": {
+    "conversation": 27,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-28T23:46:25.057Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 608,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_user_orders\nArguments : {}",
+    "created_at": "2026-10-28T23:46:26.536Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 609,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "Tool : get_user_orders\nResult : {\"success\": true, \"count\": 9, \"orders\": [{\"order_id\": 13, \"status\": \"cancelled\", \"patment_status\": \"pending\", \"payment_method\": \"online\", \"total_amount\": \"3093.00\", \"created_at\": \"2026-10-28T13:02:01.762103+00:00\"}, {\"order_id\": 12, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\"}, {\"order_id\": 11, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"online\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T11:59:19.350564+00:00\"}, {\"order_id\": 10, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"1337.00\", \"created_at\": \"2026-09-06T20:49:04.418596+00:00\"}, {\"order_id\": 9, \"status\": \"cancelled\", \"patment_status\": \"refunded\", \"payment_method\": \"cod\", \"total_amount\": \"349.00\", \"created_at\": \"2026-09-06T20:11:01.501202+00:00\"}, {\"order_id\": 8, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"299.00\", \"created_at\": \"2026-09-06T14:37:36.356692+00:00\"}, {\"order_id\": 7, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:22:41.362973+00:00\"}, {\"order_id\": 6, \"status\": \"pending\", \"patment_status\": \"pending\", \"payment_method\": \"cod\", \"total_amount\": \"449.00\", \"created_at\": \"2026-09-06T14:07:34.038960+00:00\"}, {\"order_id\": 5, \"status\": \"delivered\", \"patment_status\": \"paid\", \"payment_method\": \"online\", \"total_amount\": \"1357.00\", \"created_at\": \"2026-09-06T12:31:43.936898+00:00\"}]}",
+    "created_at": "2026-10-28T23:46:26.582Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 610,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_order_details\nArguments : {\"order_id\":12}",
+    "created_at": "2026-10-28T23:46:27.926Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 611,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "Tool : get_order_details\nResult : {\"success\": true, \"order\": {\"order_id\": 12, \"status\": \"delivered\", \"payment_status\": \"paid\", \"payment_method\": \"cod\", \"total_amount\": \"459.00\", \"created_at\": \"2026-09-07T18:09:28.482186+00:00\", \"updated_at\": \"2026-09-19T21:28:50.487762+00:00\", \"address\": {\"id\": 2, \"name\": \"\", \"address_line\": \"Rohan Ekke - pune\"}, \"items\": [{\"order_item_id\": 17, \"book_id\": 20, \"book_title\": \"The Forgotten Kingdom\", \"quantity\": 1, \"price\": \"459.00\", \"subtotal\": \"459.00\"}]}}",
+    "created_at": "2026-10-28T23:46:27.956Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 612,
+  "fields": {
+    "conversation": 27,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-28T23:46:29.803Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 613,
+  "fields": {
+    "conversation": 27,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-28T23:47:15.852Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 614,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_order_details\nArguments : {\"order_id\":13}",
+    "created_at": "2026-10-28T23:47:17.487Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 615,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "Tool : get_order_details\nResult : {\"success\": true, \"order\": {\"order_id\": 13, \"status\": \"cancelled\", \"payment_status\": \"pending\", \"payment_method\": \"online\", \"total_amount\": \"3093.00\", \"created_at\": \"2026-10-28T13:02:01.762103+00:00\", \"updated_at\": \"2026-10-28T17:21:07.746796+00:00\", \"address\": {\"id\": 2, \"name\": \"\", \"address_line\": \"Rohan Ekke - pune\"}, \"items\": [{\"order_item_id\": 18, \"book_id\": 11, \"book_title\": \"Beyond the Stars\", \"quantity\": 2, \"price\": \"499.00\", \"subtotal\": \"998.00\"}, {\"order_item_id\": 19, \"book_id\": 15, \"book_title\": \"A Life of Courage\", \"quantity\": 1, \"price\": \"449.00\", \"subtotal\": \"449.00\"}, {\"order_item_id\": 20, \"book_id\": 2, \"book_title\": \"Murder at Midnight\", \"quantity\": 2, \"price\": \"449.00\", \"subtotal\": \"898.00\"}, {\"order_item_id\": 21, \"book_id\": 1, \"book_title\": \"The Silent Witness\", \"quantity\": 1, \"price\": \"399.00\", \"subtotal\": \"399.00\"}, {\"order_item_id\": 22, \"book_id\": 3, \"book_title\": \"The Hidden Room\", \"quantity\": 1, \"price\": \"349.00\", \"subtotal\": \"349.00\"}]}}",
+    "created_at": "2026-10-28T23:47:17.643Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 616,
+  "fields": {
+    "conversation": 27,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-28T23:47:20.565Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 617,
+  "fields": {
+    "conversation": 27,
+    "event_type": "agent_start",
+    "message": "Support agent started for user 1",
+    "created_at": "2026-10-28T23:52:19.774Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 618,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_call",
+    "message": "Calling tool : get_return_status\nArguments : {\"order_id\":12}",
+    "created_at": "2026-10-28T23:52:21.612Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 619,
+  "fields": {
+    "conversation": 27,
+    "event_type": "tool_result",
+    "message": "Tool : get_return_status\nResult : {\"success\": true, \"order_id\": 12, \"return_count\": 2, \"returns\": [{\"return_id\": 4, \"status\": \"approved\", \"reason\": \"damaged\", \"requested_at\": \"2026-09-28T01:15:53.021967+00:00\", \"updated_at\": \"2026-10-28T23:51:28.658636+00:00\", \"completed_at\": null, \"items\": [{\"book_id\": 20, \"book_title\": \"The Forgotten Kingdom\", \"quantity\": 1}]}, {\"return_id\": 2, \"status\": \"approved\", \"reason\": \"defected\", \"requested_at\": \"2026-09-19T21:34:09.465022+00:00\", \"updated_at\": \"2026-09-19T21:34:09.465057+00:00\", \"completed_at\": \"2026-09-19T21:30:48+00:00\", \"items\": []}]}",
+    "created_at": "2026-10-28T23:52:21.640Z"
+  }
+},
+{
+  "model": "ai.agentlog",
+  "pk": 620,
+  "fields": {
+    "conversation": 27,
+    "event_type": "agent_end",
+    "message": "Support agent completed successfully",
+    "created_at": "2026-10-28T23:52:23.660Z"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2026-08-06T13:05:16.134Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "3",
+    "object_repr": "fada@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2026-08-06T13:05:16.134Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "2",
+    "object_repr": "rada@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2026-08-06T13:05:48.707Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "4",
+    "object_repr": "fada@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2026-08-06T13:32:56.858Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "9",
+    "object_repr": "test123@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2026-08-06T13:32:56.862Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "8",
+    "object_repr": "hchcfgjh@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2026-08-06T13:32:56.862Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "7",
+    "object_repr": "qwerty@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2026-08-06T13:32:56.862Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "6",
+    "object_repr": "tomato@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2026-08-06T13:32:56.862Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "5",
+    "object_repr": "rada@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2026-08-09T03:19:17.468Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "address"
+    ],
+    "object_id": "1",
+    "object_repr": "staff bc hai - pune",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2026-08-11T18:24:29.813Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Phone\", \"Profile image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2026-08-11T18:43:23.800Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2026-08-11T18:43:51.888Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Profile image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2026-08-11T18:44:05.428Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Profile image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2026-08-11T18:44:15.014Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "user"
+    ],
+    "object_id": "1",
+    "object_repr": "staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Profile image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2026-08-19T09:29:24.298Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "address"
+    ],
+    "object_id": "5",
+    "object_repr": "ytfytf uyguyg uyguyg - pune",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2026-08-19T09:29:24.299Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "address"
+    ],
+    "object_id": "4",
+    "object_repr": "gch jhvjh jbjh - hgh",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2026-08-19T09:29:24.299Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "accounts",
+      "address"
+    ],
+    "object_id": "3",
+    "object_repr": "loda lag gahahai - pune",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2026-08-20T08:32:27.190Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "genre"
+    ],
+    "object_id": "1",
+    "object_repr": "Sic-Fi",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2026-08-20T08:32:39.022Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "genre"
+    ],
+    "object_id": "2",
+    "object_repr": "Mystery",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2026-08-20T08:32:47.708Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "genre"
+    ],
+    "object_id": "3",
+    "object_repr": "Friction",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2026-08-20T08:32:54.816Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "genre"
+    ],
+    "object_id": "4",
+    "object_repr": "Non-Friction",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2026-08-20T08:33:08.938Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "genre"
+    ],
+    "object_id": "5",
+    "object_repr": "Biography",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2026-08-20T08:33:22.878Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "genre"
+    ],
+    "object_id": "6",
+    "object_repr": "Fantasy",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2026-08-20T09:58:23.017Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "genre"
+    ],
+    "object_id": "4",
+    "object_repr": "Non-Fiction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2026-08-20T09:58:31.112Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "genre"
+    ],
+    "object_id": "3",
+    "object_repr": "Fiction",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2026-08-20T09:58:51.000Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "genre"
+    ],
+    "object_id": "1",
+    "object_repr": "Sci-Fi",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2026-08-20T12:10:13.815Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "20",
+    "object_repr": "The Forgotten Kingdom",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2026-08-20T12:10:26.971Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "19",
+    "object_repr": "The Dragon's Legacy",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2026-08-20T12:10:40.653Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "18",
+    "object_repr": "The Enchanted Forest",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2026-08-20T12:10:50.300Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "17",
+    "object_repr": "The Kingdom of Dreams",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 31,
+  "fields": {
+    "action_time": "2026-08-20T12:11:08.972Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "16",
+    "object_repr": "The Story of a Leader",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 32,
+  "fields": {
+    "action_time": "2026-08-20T12:11:20.552Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "15",
+    "object_repr": "A Life of Courage",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 33,
+  "fields": {
+    "action_time": "2026-08-20T12:11:33.682Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "14",
+    "object_repr": "The Life of a Visionary",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 34,
+  "fields": {
+    "action_time": "2026-08-20T12:11:59.934Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "13",
+    "object_repr": "Time Beyond Tomorrow",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 35,
+  "fields": {
+    "action_time": "2026-08-20T12:12:34.503Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "12",
+    "object_repr": "The Last Colony",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 36,
+  "fields": {
+    "action_time": "2026-08-20T12:12:53.343Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "11",
+    "object_repr": "Beyond the Stars",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 37,
+  "fields": {
+    "action_time": "2026-08-21T11:47:03.376Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "10",
+    "object_repr": "The Art of Better Decisions",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 38,
+  "fields": {
+    "action_time": "2026-08-21T11:47:32.186Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "9",
+    "object_repr": "Understanding the Mind",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 39,
+  "fields": {
+    "action_time": "2026-08-21T11:47:56.225Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "8",
+    "object_repr": "The Power of Habits",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 40,
+  "fields": {
+    "action_time": "2026-08-21T11:48:22.688Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "7",
+    "object_repr": "A Journey Between Us",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 41,
+  "fields": {
+    "action_time": "2026-08-21T11:48:53.441Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "6",
+    "object_repr": "Letters from Home",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 42,
+  "fields": {
+    "action_time": "2026-08-21T11:49:19.966Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "5",
+    "object_repr": "The Last Summer",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 43,
+  "fields": {
+    "action_time": "2026-08-21T11:49:32.022Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "4",
+    "object_repr": "Shadows on the Lake",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 44,
+  "fields": {
+    "action_time": "2026-08-21T11:49:49.885Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "3",
+    "object_repr": "The Hidden Room",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 45,
+  "fields": {
+    "action_time": "2026-08-21T11:50:02.654Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "2",
+    "object_repr": "Murder at Midnight",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 46,
+  "fields": {
+    "action_time": "2026-08-21T11:50:18.983Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "catalog",
+      "book"
+    ],
+    "object_id": "1",
+    "object_repr": "The Silent Witness",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 47,
+  "fields": {
+    "action_time": "2026-08-25T14:31:40.874Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "cart",
+      "cart"
+    ],
+    "object_id": "1",
+    "object_repr": "staff@gmail.com's cart",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 48,
+  "fields": {
+    "action_time": "2026-08-25T14:31:57.214Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "cart",
+      "cartitem"
+    ],
+    "object_id": "1",
+    "object_repr": "The Silent Witness x 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 49,
+  "fields": {
+    "action_time": "2026-08-25T14:32:11.071Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "cart",
+      "cartitem"
+    ],
+    "object_id": "2",
+    "object_repr": "Murder at Midnight x 2",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 50,
+  "fields": {
+    "action_time": "2026-09-07T11:33:10.238Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "8",
+    "object_repr": "Order #8 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 51,
+  "fields": {
+    "action_time": "2026-09-07T11:33:57.367Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "8",
+    "object_repr": "Order #8 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 52,
+  "fields": {
+    "action_time": "2026-09-07T11:34:29.479Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "8",
+    "object_repr": "Order #8 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 53,
+  "fields": {
+    "action_time": "2026-09-07T11:38:12.854Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "5",
+    "object_repr": "Order #5 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 54,
+  "fields": {
+    "action_time": "2026-09-07T11:40:26.183Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "8",
+    "object_repr": "Order #8 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 55,
+  "fields": {
+    "action_time": "2026-09-07T11:41:38.385Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "8",
+    "object_repr": "Order #8 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 56,
+  "fields": {
+    "action_time": "2026-09-07T11:42:51.319Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "8",
+    "object_repr": "Order #8 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 57,
+  "fields": {
+    "action_time": "2026-09-07T11:47:35.462Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "8",
+    "object_repr": "Order #8 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 58,
+  "fields": {
+    "action_time": "2026-09-08T10:29:39.569Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agent"
+    ],
+    "object_id": "1",
+    "object_repr": "BookNook Shopping Agent",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 59,
+  "fields": {
+    "action_time": "2026-09-08T14:16:29.573Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agent"
+    ],
+    "object_id": "1",
+    "object_repr": "BookNook Shopping Agen",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Name\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 60,
+  "fields": {
+    "action_time": "2026-09-09T23:00:33.822Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agent"
+    ],
+    "object_id": "1",
+    "object_repr": "BookNook Shopping Agen",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 61,
+  "fields": {
+    "action_time": "2026-09-10T00:21:51.682Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agent"
+    ],
+    "object_id": "2",
+    "object_repr": "Shopping Agent",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 62,
+  "fields": {
+    "action_time": "2026-09-10T01:10:13.346Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agent"
+    ],
+    "object_id": "2",
+    "object_repr": "Shopping Agent",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"System prompt\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 63,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.346Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "32",
+    "object_repr": "[agent_end] Shopping agent completed successfully.",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 64,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "31",
+    "object_repr": "[tool_result] Tool: search_book\nResult: {\"success\": true, \"count",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 65,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "30",
+    "object_repr": "[tool_call] Calling tool: search_book\nArguments: {\"category\":\"",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 66,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "29",
+    "object_repr": "[agent_start] Shopping agent started for user 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 67,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "28",
+    "object_repr": "[agent_end] Shopping agent completed successfully.",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 68,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "27",
+    "object_repr": "[tool_result] Tool: search_book\nResult: {\"success\": true, \"count",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 69,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "26",
+    "object_repr": "[tool_call] Calling tool: search_book\nArguments: {\"query\":\"sci",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 70,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "25",
+    "object_repr": "[agent_start] Shopping agent started for user 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 71,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "24",
+    "object_repr": "[agent_end] Shopping agent completed successfully.",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 72,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "23",
+    "object_repr": "[tool_result] Tool: search_book\nResult: {\"success\": true, \"count",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 73,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "22",
+    "object_repr": "[tool_call] Calling tool: search_book\nArguments: {\"query\":\"sci",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 74,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "21",
+    "object_repr": "[agent_start] Shopping agent started for user 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 75,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "20",
+    "object_repr": "[agent_end] Shopping agent completed successfully.",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 76,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "19",
+    "object_repr": "[tool_result] Tool: search_book\nResult: {\"success\": true, \"count",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 77,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "18",
+    "object_repr": "[tool_call] Calling tool: search_book\nArguments: {\"category\":\"",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 78,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "17",
+    "object_repr": "[agent_start] Shopping agent started for user 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 79,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "16",
+    "object_repr": "[agent_end] Shopping agent completed successfully.",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 80,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "15",
+    "object_repr": "[tool_result] Tool: search_book\nResult: {\"success\": true, \"count",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 81,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "14",
+    "object_repr": "[tool_call] Calling tool: search_book\nArguments: {\"category\":\"",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 82,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "13",
+    "object_repr": "[agent_start] Shopping agent started for user 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 83,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "12",
+    "object_repr": "[agent_end] Shopping agent completed successfully.",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 84,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "11",
+    "object_repr": "[tool_result] Tool: search_book\nResult: {\"success\": true, \"count",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 85,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "10",
+    "object_repr": "[tool_call] Calling tool: search_book\nArguments: {\"category\":\"",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 86,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "9",
+    "object_repr": "[agent_start] Shopping agent started for user 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 87,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "8",
+    "object_repr": "[agent_end] Shopping agent completed successfully.",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 88,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "7",
+    "object_repr": "[tool_result] Tool: search_book\nResult: {\"success\": true, \"count",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 89,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "6",
+    "object_repr": "[tool_call] Calling tool: search_book\nArguments: {\"category\":\"",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 90,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "5",
+    "object_repr": "[agent_start] Shopping agent started for user 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 91,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "4",
+    "object_repr": "[agent_end] Shopping agent completed successfully.",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 92,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "3",
+    "object_repr": "[tool_result] Tool: search_book\nResult: {\"success\": true, \"count",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 93,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "2",
+    "object_repr": "[tool_call] Calling tool: search_book\nArguments: {\"query\":\"mot",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 94,
+  "fields": {
+    "action_time": "2026-09-10T01:37:58.347Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agentlog"
+    ],
+    "object_id": "1",
+    "object_repr": "[agent_start] Shopping agent started for user 1",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 95,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "18",
+    "object_repr": "assistant: Here are some science fiction books you might enjo",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 96,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "17",
+    "object_repr": "user: can you again search",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 97,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "16",
+    "object_repr": "assistant: I couldn't find any science fiction books at the m",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 98,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "15",
+    "object_repr": "user: can you search for science friction books",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 99,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "14",
+    "object_repr": "assistant: I couldn't find any science fiction books at the m",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 100,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "13",
+    "object_repr": "user: any science friction book",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 101,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "12",
+    "object_repr": "assistant: I couldn't find any science books at the moment. I",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 102,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "11",
+    "object_repr": "user: any science books",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 103,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "10",
+    "object_repr": "assistant: Here are some biography books you might find inter",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 104,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "9",
+    "object_repr": "user: can you give me biography books",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 105,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "8",
+    "object_repr": "assistant: Here are some mystery books for you:\n\n1. **The Sil",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 106,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "7",
+    "object_repr": "user: ok again give me mystries book",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 107,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "6",
+    "object_repr": "assistant: Here are some mystery books you might enjoy:\n\n1. *",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 108,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "5",
+    "object_repr": "user: show me mysteryies book",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 109,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "4",
+    "object_repr": "assistant: I couldn't find any motivational books at the mome",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 110,
+  "fields": {
+    "action_time": "2026-09-10T01:38:20.338Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "3",
+    "object_repr": "user: find me motivational book",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 111,
+  "fields": {
+    "action_time": "2026-09-10T01:40:44.839Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "3",
+    "object_repr": "Conversation #3 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 112,
+  "fields": {
+    "action_time": "2026-09-10T01:40:44.839Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "2",
+    "object_repr": "Conversation #2 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 113,
+  "fields": {
+    "action_time": "2026-09-17T19:33:06.153Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "shipment"
+    ],
+    "object_id": "1",
+    "object_repr": "#8 - delivered",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 114,
+  "fields": {
+    "action_time": "2026-09-17T19:34:41.903Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "shipmentevent"
+    ],
+    "object_id": "1",
+    "object_repr": "#8 - delivered - Pune",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 115,
+  "fields": {
+    "action_time": "2026-09-19T21:27:34.310Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "10",
+    "object_repr": "Order #10 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 116,
+  "fields": {
+    "action_time": "2026-09-19T21:27:57.911Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "10",
+    "object_repr": "Order #10 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Payment status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 117,
+  "fields": {
+    "action_time": "2026-09-19T21:28:11.754Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "5",
+    "object_repr": "Order #5 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 118,
+  "fields": {
+    "action_time": "2026-09-19T21:28:31.256Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "7",
+    "object_repr": "Order #7 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\", \"Payment status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 119,
+  "fields": {
+    "action_time": "2026-09-19T21:28:50.492Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "12",
+    "object_repr": "Order #12 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\", \"Payment status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 120,
+  "fields": {
+    "action_time": "2026-09-19T21:30:56.657Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "returnrequest"
+    ],
+    "object_id": "1",
+    "object_repr": "12 - defected",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 121,
+  "fields": {
+    "action_time": "2026-09-19T21:34:09.473Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "returnrequest"
+    ],
+    "object_id": "2",
+    "object_repr": "12 - defected",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 122,
+  "fields": {
+    "action_time": "2026-09-19T21:34:48.172Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "returnrequest"
+    ],
+    "object_id": "1",
+    "object_repr": "12 - defected",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 123,
+  "fields": {
+    "action_time": "2026-09-19T21:36:23.527Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "returnrequest"
+    ],
+    "object_id": "3",
+    "object_repr": "10 - other",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 124,
+  "fields": {
+    "action_time": "2026-09-19T21:38:29.369Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "11",
+    "object_repr": "Order #11 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\", \"Payment status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 125,
+  "fields": {
+    "action_time": "2026-09-19T21:39:06.640Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "order"
+    ],
+    "object_id": "9",
+    "object_repr": "Order #9 - staff@gmail.com",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\", \"Payment status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 126,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.102Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "15",
+    "object_repr": "Conversation #15 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 127,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "14",
+    "object_repr": "Conversation #14 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 128,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "13",
+    "object_repr": "Conversation #13 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 129,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "12",
+    "object_repr": "Conversation #12 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 130,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "11",
+    "object_repr": "Conversation #11 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 131,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "10",
+    "object_repr": "Conversation #10 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 132,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "9",
+    "object_repr": "Conversation #9 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 133,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "8",
+    "object_repr": "Conversation #8 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 134,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "7",
+    "object_repr": "Conversation #7 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 135,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "6",
+    "object_repr": "Conversation #6 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 136,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "5",
+    "object_repr": "Conversation #5 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 137,
+  "fields": {
+    "action_time": "2026-10-26T21:01:01.103Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "conversation"
+    ],
+    "object_id": "4",
+    "object_repr": "Conversation #4 - staff@gmail.com",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 138,
+  "fields": {
+    "action_time": "2026-10-27T20:03:21.902Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "246",
+    "object_repr": "user: hi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 139,
+  "fields": {
+    "action_time": "2026-10-27T20:03:21.902Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "245",
+    "object_repr": "user: hi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 140,
+  "fields": {
+    "action_time": "2026-10-27T20:03:21.902Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "244",
+    "object_repr": "user: hi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 141,
+  "fields": {
+    "action_time": "2026-10-27T20:03:21.903Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "243",
+    "object_repr": "user: hi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 142,
+  "fields": {
+    "action_time": "2026-10-27T20:03:21.903Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "242",
+    "object_repr": "user: hi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 143,
+  "fields": {
+    "action_time": "2026-10-27T20:03:21.903Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "241",
+    "object_repr": "user: hi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 144,
+  "fields": {
+    "action_time": "2026-10-27T20:03:21.903Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "message"
+    ],
+    "object_id": "240",
+    "object_repr": "user: hi",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 145,
+  "fields": {
+    "action_time": "2026-10-27T20:20:02.172Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "ai",
+      "agent"
+    ],
+    "object_id": "2",
+    "object_repr": "Shopping Agent",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Model\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 146,
+  "fields": {
+    "action_time": "2026-10-28T23:51:28.667Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "returnrequest"
+    ],
+    "object_id": "4",
+    "object_repr": "12 - damaged",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Status\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 147,
+  "fields": {
+    "action_time": "2026-10-28T23:53:38.546Z",
+    "user": [
+      "staff@gmail.com"
+    ],
+    "content_type": [
+      "orders",
+      "returnrequest"
+    ],
+    "object_id": "2",
+    "object_repr": "12 - defected",
+    "action_flag": 3,
+    "change_message": ""
+  }
+}
+]
