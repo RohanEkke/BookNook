@@ -1,5 +1,5 @@
 from django.db import models
-
+from django.conf import settings
 
 class Genre(models.Model):
     name = models.CharField(max_length=100)
@@ -39,5 +39,15 @@ class Book(models.Model):
     def __str__(self):
         return self.title
 
+@property
+def image_url(self):
+    if not self.image:
+        return None
 
+    filename = self.image.name.split("/")[-1]
+
+    return (
+        f"{settings.SUPABASE_URL}/storage/v1/object/public/"
+        f"book-images/{filename}"
+    )
 
