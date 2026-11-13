@@ -15,7 +15,7 @@ npm --version
 # Build React frontend
 cd frontend/bookstore
 npm install --no-audit --no-fund
-npm run build
+
 
 # Return to Django project root
 cd ../..
