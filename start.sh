@@ -1,5 +1,13 @@
 #!/bin/sh
 
+cd "$(dirname "$0")"
+
+echo "Current directory:"
+pwd
+
+echo "Project files:"
+ls -la
+
 echo "Running database migrations..."
 
 ./.venv/bin/python manage.py migrate --noinput
