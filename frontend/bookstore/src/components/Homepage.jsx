@@ -452,9 +452,10 @@ const Homepage = () => {
                   <div className="bg-light p-3">
 
                     <img
-                      src={`${import.meta.env.VITE_BACKEND_BASE_URL}${book.image}`}
+                      src={book.image}
                       alt={book.title}
                       className="card-img-top rounded-3 shadow-sm"
+                      loading="lazy"
                       style={{
                         height: "250px",
                         objectFit: "cover",
