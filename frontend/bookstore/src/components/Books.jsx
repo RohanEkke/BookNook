@@ -503,7 +503,7 @@ const Books = () => {
                     >
 
                       <img
-                        src={`http://127.0.0.1:8000${book.image}`}
+                        src={`${import.meta.env.VITE_BACKEND_BASE_URL}${book.image}`}
                         alt={book.title}
                         className="w-100 rounded-3"
                         style={{

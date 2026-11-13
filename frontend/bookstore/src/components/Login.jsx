@@ -22,7 +22,7 @@ const Login = () => {
         // console.log("data===>", userData)
 
         try{
-            const response = await axios.post('http://127.0.0.1:8000/api/token/', userData)
+            const response = await axios.post(`${import.meta.env.VITE_BACKEND_BASE_URL}/token/`, userData)
             localStorage.setItem('accessToken', response.data.access)
             localStorage.setItem('refreshToken', response.data.refresh)
             setIsLoggedIn(true)

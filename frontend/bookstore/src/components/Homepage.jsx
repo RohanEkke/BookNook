@@ -452,7 +452,7 @@ const Homepage = () => {
                   <div className="bg-light p-3">
 
                     <img
-                      src={`http://127.0.0.1:8000${book.image}`}
+                      src={`${import.meta.env.VITE_BACKEND_BASE_URL}${book.image}`}
                       alt={book.title}
                       className="card-img-top rounded-3 shadow-sm"
                       style={{

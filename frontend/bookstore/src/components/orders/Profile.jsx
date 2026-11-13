@@ -30,7 +30,7 @@ const Profile = () => {
                     {profile &&(
                     <div className='col-md-4 text-center border-end'>
                         <img 
-                        src={`http://127.0.0.1:8000${profile.profile_image}`} 
+                        src={`${import.meta.env.VITE_BACKEND_BASE_URL}${profile.profile_image}`} 
                         alt="Brand Logo" 
                         style={{
                                 width: '150px',

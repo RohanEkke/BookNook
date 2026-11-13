@@ -441,7 +441,7 @@ const Chekout = () => {
                     <div className="product-item">
 
                     <img
-                        src={`http://127.0.0.1:8000${getBook.image}`}
+                        src={`${import.meta.env.VITE_BACKEND_BASE_URL}${getBook.image}`}
                         alt={getBook.title}
                     />
 
@@ -482,7 +482,7 @@ const Chekout = () => {
                     >
 
                     <img
-                        src={`http://127.0.0.1:8000${item.book_image}`}
+                        src={`${import.meta.env.VITE_BACKEND_BASE_URL}${item.book_image}`}
                         alt={item.book_title}
                     />
 

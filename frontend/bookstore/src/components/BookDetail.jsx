@@ -93,7 +93,7 @@ const BookDetail = () => {
       <div className='row justify-content-center align-items-center g-5'>
         <div className='col-md-5'>
           <img
-            src={`http://127.0.0.1:8000${book.image}`}
+            src={`${import.meta.env.VITE_BACKEND_BASE_URL}${book.image}`}
             className="w-75 border-1 rounded-3 shadow"
             alt={book.title}
           />

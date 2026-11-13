@@ -23,7 +23,7 @@ const Register = () => {
         }
 
         try{
-            const response = await axios.post('http://127.0.0.1:8000/api/register', userData)
+            const response = await axios.post(`${import.meta.env.VITE_BACKEND_BASE_URL}/api/register`, userData)
             // console.log("data=======>", response.data)
             // console.log("registration successful!")
             setErrors({})
