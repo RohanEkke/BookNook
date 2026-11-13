@@ -56,7 +56,7 @@ INSTALLED_APPS = [
     'ai',
     
     'storages',
-    'accounts',
+    
 ]
 
 MIDDLEWARE = [
