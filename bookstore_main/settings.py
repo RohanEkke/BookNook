@@ -218,6 +218,6 @@ STORAGES = {
         },
     },
     "staticfiles": {
-        "BACKEND": "whitenoise.storage.StaticFileStorage",
+        "BACKEND": "whitenoise.storage.StaticFilesStorage",
     },
 }
