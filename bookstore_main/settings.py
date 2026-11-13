@@ -73,7 +73,7 @@ ROOT_URLCONF = 'bookstore_main.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'frontend' / 'bookstore' / 'dist'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -164,9 +164,14 @@ AI_CRED_KEY = config("AI_CRED_KEY")
 BASE_URL = config("BASE_URL")
 
 STATIC_URL = "static/"
-STATIC_ROOT = os.path.join(BASE_DIR, "static")
+STATIC_ROOT = BASE_DIR / "static"
 
 STATICFILES_STORAGE = 'whitenoise.storage.StaticFileStorage'
+
+STATICFILES_DIRS = [
+    BASE_DIR / 'frontend' / 'bookstore' / 'dist',
+]
+
 
 CSRF_TRUSTED_ORIGINS = config("CSRF_TRUSTED_ORIGINS").split(",")
 
