@@ -54,6 +54,9 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'corsheaders',
     'ai',
+    'django.contrib.staticfiles',
+    'storages',
+    'accounts',
 ]
 
 MIDDLEWARE = [
@@ -197,3 +200,24 @@ LOGGING = {
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 SUPABASE_URL = config("SUPABASE_URL")
+
+
+STORAGES = {
+    "default": {
+        "BACKEND": "catalog.storage_backends.SupabaseMediaStorage",
+        "OPTIONS": {
+            "access_key": config("SUPABASE_S3_ACCESS_KEY_ID"),
+            "secret_key": config("SUPABASE_S3_SECRET_ACCESS_KEY"),
+            "bucket_name": "book-images",
+            "endpoint_url": config("SUPABASE_S3_ENDPOINT"),
+            "region_name": config("SUPABASE_S3_REGION"),
+            "addressing_style": "path",
+            "signature_version": "s3v4",
+            "file_overwrite": False,
+            "default_acl": None,
+        },
+    },
+    "staticfiles": {
+        "BACKEND": "whitenoise.storage.StaticFileStorage",
+    },
+}
