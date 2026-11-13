@@ -30,10 +30,15 @@ const Login = () => {
             
         }catch(error){
             
-        console.error(error.response?.data);
+        console.log("LOGIN ERROR:", error);
+        console.log("STATUS:", error.response?.status);
+        console.log("RESPONSE:", error.response?.data);
+        console.log("REQUEST URL:", error.config?.url);
 
         setErrors(
-            error.response?.data?.detail || "Invalid credentials"
+            error.response?.data?.detail ||
+            error.response?.data?.non_field_errors?.[0] ||
+            "Login failed. Please try again."
         );
         }finally{
             setLoading(false)
