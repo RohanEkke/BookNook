@@ -54,7 +54,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'corsheaders',
     'ai',
-    'django.contrib.staticfiles',
+    
     'storages',
     'accounts',
 ]
