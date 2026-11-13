@@ -1,12 +1,7 @@
+
 #!/bin/sh
 
 cd "$(dirname "$0")"
-
-echo "Current directory:"
-pwd
-
-echo "Project files:"
-ls -la
 
 echo "Running database migrations..."
 
@@ -21,18 +16,6 @@ echo "Collecting static files..."
 
 ./.venv/bin/python manage.py collectstatic --noinput
 
-echo "Importing BookNook data..."
-
-./.venv/bin/python manage.py loaddata data.json
-
-if [ $? -ne 0 ]; then
-    echo "Data import failed!"
-    exit 1
-fi
-
-echo "Data imported successfully!"
-
 echo "Starting Gunicorn..."
 
 exec ./.venv/bin/python -m gunicorn bookstore_main.wsgi:application --bind 0.0.0.0:$PORT --access-logfile - --error-logfile - --capture-output --log-level debug
-
