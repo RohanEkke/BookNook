@@ -97,6 +97,7 @@ const Header = () => {
                                 to="/chat-ai"
                                 className="btn btn-outline-dark d-flex align-items-center gap-2 rounded-3 px-3"
                             >
+                                <i className="bi bi-stars"></i>
 
                                 <span className="d-none d-sm-inline">
                                     AI
