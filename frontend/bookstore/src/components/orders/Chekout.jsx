@@ -441,8 +441,9 @@ const Chekout = () => {
                     <div className="product-item">
 
                     <img
-                        src={`${import.meta.env.VITE_BACKEND_BASE_URL}${getBook.image}`}
+                        src={book.image}
                         alt={getBook.title}
+                        loading='lazy'
                     />
 
                     <div className="product-info">
