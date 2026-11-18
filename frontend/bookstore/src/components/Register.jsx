@@ -38,66 +38,106 @@ const Register = () => {
 
 
   return (
-    <>
-    <div className='container '>
-        <div className='row justify-content-center'>
-            <div className='col-md-7'>
-                <form className='shadow p-5 m-5 rounded-3 bg-light' onSubmit={handleRegistration}>
-                    
-                    <img
-                    src={logo} 
-                    alt="Brand Logo" 
-                    height="auto"
-                    width="auto"
-                    className="d-block mx-auto mb-4" 
-                    />
-                    <h3 className='text-dark text-center mb-3'>SignUp</h3>
-                    <div className="form-group m-3">
-                        <label>First Name</label>
-                        <input type="text" className="form-control" placeholder="First Name" value={first_name} onChange={(e) => setFirstName(e.target.value)}></input>
-                        <small className="form-text text-danger">{errors.first_name} </small>
-                    </div>
-                    <div className="form-group m-3">
-                        <label>Last Name</label>
-                        <input type="text" className="form-control" placeholder="Last Name" value={last_name} onChange={(e) => setLastName(e.target.value)}></input>
-                        <small className="form-text text-danger">{errors.last_name}</small>
-                    </div>
-                    <div className="form-group m-3">
-                        <label>Email address</label>
-                        <input type="email" className="form-control" placeholder="Enter email" value={email} onChange={(e) => setEmail(e.target.value)}></input>
-                        <small className="form-text text-danger">{errors.email}</small>
-                    </div>
-                    <div className="form-group m-3">
-                        <label >Password</label>
-                        <input type="password" className="form-control" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}></input>
-                        <small className="form-text text-danger">{errors.password}</small>
-                    </div>
-
-                    {/* <div className="form-group m-3">
-                        <label >Re-enter password</label>
-                        <input type="password" className="form-control" placeholder="Password"></input>
-                    </div> */}
-                    
-                    
-                    {success && <div className='text-center text-success h5'>Registration Successful!</div>}
-                    {loading ? (
-                        <div className="d-flex justify-content-center m-3">
-                            <button type="submit" className="text-light btn w-100 mt-3" style={{ backgroundColor: '#A3572A' }}>Signingup...</button>
-                        </div>
-                    ) : (
-                        <div className="d-flex justify-content-center m-3">
-                            <button type="submit" className="text-light btn w-100 mt-3" style={{ backgroundColor: '#A3572A' }}>Signup</button>
-                        </div>
-                    )}   
-                    
-                    
-                </form>
-
-            </div>
-        </div>
     
-    </div>
-    </>
+        <>
+            <div className="container-fluid px-3 py-4">
+                <div className="row justify-content-center">
+                    <div className="col-12 col-sm-10 col-md-7 col-lg-6">
+
+                        <form
+                            className="shadow p-3 p-sm-4 p-md-5 my-3 rounded-3 bg-light w-100"
+                            onSubmit={handleRegistration}
+                        >
+
+                            <img
+                                src={logo}
+                                alt="Brand Logo"
+                                className="d-block mx-auto mb-4 img-fluid"
+                                style={{ maxWidth: "300px", width: "100%", height: "auto" }}
+                            />
+
+                            <h3 className="text-dark text-center mb-4">
+                                Sign Up
+                            </h3>
+
+                            <div className="form-group mb-3">
+                                <label className="form-label">First Name</label>
+                                <input
+                                    type="text"
+                                    className="form-control w-100"
+                                    placeholder="First Name"
+                                    value={first_name}
+                                    onChange={(e) => setFirstName(e.target.value)}
+                                />
+                                <small className="form-text text-danger">
+                                    {errors.first_name}
+                                </small>
+                            </div>
+
+                            <div className="form-group mb-3">
+                                <label className="form-label">Last Name</label>
+                                <input
+                                    type="text"
+                                    className="form-control w-100"
+                                    placeholder="Last Name"
+                                    value={last_name}
+                                    onChange={(e) => setLastName(e.target.value)}
+                                />
+                                <small className="form-text text-danger">
+                                    {errors.last_name}
+                                </small>
+                            </div>
+
+                            <div className="form-group mb-3">
+                                <label className="form-label">Email address</label>
+                                <input
+                                    type="email"
+                                    className="form-control w-100"
+                                    placeholder="Enter email"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                />
+                                <small className="form-text text-danger">
+                                    {errors.email}
+                                </small>
+                            </div>
+
+                            <div className="form-group mb-4">
+                                <label className="form-label">Password</label>
+                                <input
+                                    type="password"
+                                    className="form-control w-100"
+                                    placeholder="Password"
+                                    value={password}
+                                    onChange={(e) => setPassword(e.target.value)}
+                                />
+                                <small className="form-text text-danger">
+                                    {errors.password}
+                                </small>
+                            </div>
+
+                            {success && (
+                                <div className="text-center text-success mb-3">
+                                    Registration Successful!
+                                </div>
+                            )}
+
+                            <button
+                                type="submit"
+                                className="text-light btn w-100 mt-2 py-2"
+                                style={{ backgroundColor: '#A3572A' }}
+                                disabled={loading}
+                            >
+                                {loading ? "Signing up..." : "Signup"}
+                            </button>
+
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </>
+
   )
 }
 
