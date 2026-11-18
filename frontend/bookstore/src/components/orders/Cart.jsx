@@ -184,8 +184,9 @@ const Cart = () => {
                     <div className="col-md-3">
 
                       <img
-                        src={`${import.meta.env.VITE_BACKEND_BASE_URL}${item.book_image}`}
+                        src={book.image}
                         alt={item.book_title}
+                        loading='lazy'
                         className="img-fluid rounded"
                       />
 

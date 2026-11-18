@@ -46,50 +46,71 @@ const Login = () => {
     }
 
   return (
-    <>
-    <div className='container m-5'>
-        <div className='row justify-content-center'>
-            <div className='col-md-6'>
+    
+        <>
+            <div className="container-fluid px-3 py-4">
+                <div className="row justify-content-center">
+                    <div className="col-12 col-sm-10 col-md-6">
 
-                <form className='shadow p-4 m-5 bg-light rounded-3' onSubmit={handleLogin}>
-                    <img 
-                    src={logo} 
-                    alt="Brand Logo" 
-                    height="auto"
-                    width="auto"
-                    className="d-block mx-auto mb-4" 
-                    />
-                    <h3 className='text-dark text-center mb-4'>Login to BookNook</h3>
-                    <div className="form-group m-4">
-                        <label>Email address</label>
-                        <input type="email" className="form-control" placeholder="Enter email"  value={email} onChange={(e) => setEmail(e.target.value)}></input>
-                        
-                    </div>
-                    
-                    <div className="form-group m-4">
-                        <label >Password</label>
-                        <input type="password" className="form-control" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)}></input>
-                        
-                    </div>
-                    
-                    {errors && <div className='text-danger text-center'>{errors}</div> }
-                    {loading ? (
-                        <div className="d-flex justify-content-center m-4">
-                            <button type="submit" className="text-light btn w-100 mt-3" style={{ backgroundColor: '#A3572A' }}>Logging in...</button>
-                        </div>
-                    ) : (
-                        <div className="d-flex justify-content-center m-4">
-                            <button type="submit" className="text-light btn w-100 mt-3" style={{ backgroundColor: '#A3572A' }}>Login</button>
-                        </div>
-                    )}   
-                </form>
+                        <form
+                            className="shadow p-4 p-md-5 m-0 bg-light rounded-3"
+                            onSubmit={handleLogin}
+                        >
+                            <img
+                                src={logo}
+                                alt="Brand Logo"
+                                className="d-block mx-auto mb-4 img-fluid"
+                            />
 
+                            <h3 className="text-dark text-center mb-4">
+                                Login to BookNook
+                            </h3>
+
+                            <div className="form-group m-3 m-md-4">
+                                <label>Email address</label>
+                                <input
+                                    type="email"
+                                    className="form-control"
+                                    placeholder="Enter email"
+                                    value={email}
+                                    onChange={(e) => setEmail(e.target.value)}
+                                />
+                            </div>
+
+                            <div className="form-group m-3 m-md-4">
+                                <label>Password</label>
+                                <input
+                                    type="password"
+                                    className="form-control"
+                                    placeholder="Password"
+                                    value={password}
+                                    onChange={(e) => setPassword(e.target.value)}
+                                />
+                            </div>
+
+                            {errors && (
+                                <div className="text-danger text-center">
+                                    {errors}
+                                </div>
+                            )}
+
+                            <div className="d-flex justify-content-center m-3 m-md-4">
+                                <button
+                                    type="submit"
+                                    className="text-light btn w-100 mt-3"
+                                    style={{ backgroundColor: '#A3572A' }}
+                                    disabled={loading}
+                                >
+                                    {loading ? "Logging in..." : "Login"}
+                                </button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
             </div>
-        </div>
-    
-    </div>
-    
-    </>
+        </>
+
   )
 }
 
