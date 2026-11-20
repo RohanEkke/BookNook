@@ -54,6 +54,7 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
     'corsheaders',
     'ai',
+    'catalog.apps.CatalogConfig',
     
     'storages',
     
